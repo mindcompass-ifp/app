@@ -24,7 +24,7 @@ body {
     height: 107px;
     cursor: pointer;
     position: relative;
-    
+    top: 50px;
 }
 
 #logo img:hover{

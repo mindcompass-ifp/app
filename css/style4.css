@@ -1,0 +1,376 @@
+*{
+    font-family: helvetica;
+}
+
+body {
+    background-color: white;
+    font-family: ;
+   }
+
+header{
+    width: auto;
+    height: 160px;
+    background-color: #007FB7;
+}
+
+#contenidor{
+    width: auto;
+    height: 680px;
+    background-color: white;
+}
+
+#pestaña1{
+    width: 390px;
+    height: 640px;
+    background-color: #007FB7;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+#programa{
+    width: 130px;
+    height: 65px;
+    background-color: ;
+    margin: 0 auto;
+}
+
+ a{
+    text-decoration: none;
+}
+
+#mes{
+    width: 170px;
+    height: 70px;
+    background-color: #AEF0FF;
+    border-radius: 15px;
+    position: fixed;
+    z-index: 4;
+    margin-top: 416px;
+    margin-left: 205px;
+}
+
+#nhabit{
+    background-color: #225587;
+    height: 23px;
+    width: 110px;
+    border-radius: 15px;
+    margin-top: 1px;
+    margin-left: 8px;
+}
+
+#nhabit:hover{
+    color: #225587;
+    background-color: white;
+}
+
+#nprograma{
+    background-color: #007FB7;
+    height: 23px;
+    width: 110px;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+#nprograma:hover{
+    color: #007FB7;
+    background-color: white;
+}
+
+.btn1{
+    color: white;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 8px;
+    background-color: ;
+}
+
+.btn1:hover{
+    color: #225587;
+}
+
+.btn2:hover{
+    color: #007FB7;
+}
+
+.btn2{
+    color: white;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 8px;
+    background-color: ;
+}
+
+#menys{
+    width: 30px;
+    height: 30px;
+    background-color: #225587;
+    border-radius: 25px;
+    margin-top: -43px;
+    margin-left: 128px;
+}
+
+#menys:hover{
+    background-color: #EB5C4E;
+}
+
+#menys img{
+    width: 30px;
+    height: 30px;
+    background-color: ;
+    margin-top: 0px;
+}
+
+#correccio{
+    height: 50px;
+    width: 260px;
+    background-color: transparent;
+    position: fixed;
+    margin-top: -100px;
+    margin-left: 130px;
+    z-index: 1;
+}
+
+
+#desplegable{
+    height: 30px;
+    width: 130px;
+    background-color: #225587;
+    margin-top: 25px;
+    border-radius: 7px;
+}
+
+h2{
+    color: white;
+    font-weight: 400;
+    font-size:17px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.p1{
+    height: 50px;
+    width: 10px;
+    background-color: #007FB7;
+    float: left;
+}
+
+.p1 img{
+    width: 130px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+.p2{
+    height: 50px;
+    width: 130px;
+    background-color: #225587;
+    margin-top: 0;
+    border-radius: 20px 20px 0 0;
+    z-index: 5;
+    margin-left: 130px;
+}
+
+.p2 img{
+    width: 130px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+.p3{
+    height: 50px;
+    width: 130px;
+    background-color: #225587;
+    border-radius: 20px 20px 0 0;
+    z-index: 3;
+    margin-top: -50px;
+    margin-left: 260px;
+
+}
+
+.p3 img{
+    width: 130px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+
+#logo{
+    height: 90px;
+    width: 120px;
+    background-color: #007FB7;
+    margin: 0 auto;
+}
+
+img{
+    height: 65px;
+    width: 120px;
+    margin-top: 25px;
+}
+
+#calendari{
+    width: auto;
+    height: 60px;
+    background-color: #007FB7;
+}
+
+.bolas{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    float: left;
+    display: inline;
+    margin-top: 16px;
+    margin-left: 12px;
+    border-radius: 25px;
+}
+
+#ttt{
+    width: 413px;
+    height: 65px;
+    background-color: #007FB7;
+    margin-top: 5px;
+    margin: 0 auto;
+}
+
+h6{
+    text-align: center;
+    font-size: 21px;
+    margin-top: -4px;
+    font-weight: 500;
+}
+
+.dias{
+    width: 30px;
+    height: 18px;
+    background-color: ;
+    margin-left:8px;
+    margin-top: -9px;
+    text-align: center;
+}
+
+#contenidor2{
+    width: 390px;
+    height: 510px;
+    background-color:  ;
+    position: absolute;
+    margin-top: -24px;
+    overflow-y: scroll;
+    border-radius: 0 0 35px 35px;
+}
+
+header p{
+    font-size: 14px;
+    font-weight: ;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+#footer{
+    height: 100px;
+    width: auto;
+    background-color: #007FB7;
+    margin-top: 10px;
+}
+
+.iconos{
+    width: 60px;
+    height: 60px;
+    background-color: ed;
+    border-radius: 35px;
+    margin-left: 12px;
+    
+    display: inline-block;
+    margin-top: 11px;
+}
+
+#barra{
+    height: 60px;
+    width: 390px;
+    background-color:;
+    margin: 0 auto;
+    top: 15px;
+}
+
+#barra img{
+    width: 35px;
+    height: 35px;
+    padding-top:-25px;
+    margin-left: 10px;
+}
+
+.check img{
+    width: 35px;
+    height: 30px;
+}
+
+h3{
+    color: white;
+    font-size: 15px;
+    margin-left: 7px;
+    padding-top: 7px;
+    font-weight: 500;
+  
+}
+
+#pestañita{
+    width: 12px;
+    height: 9px;
+    background: ;
+    margin-left: 111px;
+    margin-top: -33.5px;
+}
+
+#pestañita img{
+    width: 12px;
+    height: 9px;
+    margin-top: -40px;
+}
+
+
+
+.habitos{
+    width: 370px;
+    height: 50px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 25px;
+    padding-top: 1px;
+    opacity: 94%;
+    z-index: 5;
+}
+
+.habitos:hover{
+    opacity: 100%;
+    z-index: 5;
+}
+
+#icon{
+    width: 40px;
+    height: 40px;
+    background-color: #CCCCCC;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+#icon img{
+    width: 32px;
+    height: 32px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+h4{
+    margin-top: -33px;
+    margin-left: 65px;
+    background-color: ;
+    width: 300px;
+    font-weight: 400;
+    font-size: 14px;
+}

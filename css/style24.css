@@ -1,0 +1,161 @@
+*{
+    font-family: helvetica;
+}
+
+body {
+    background-color: white;
+    font-family: ;
+  
+   }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    width: auto;
+    height: 115px;
+    background-color: #007FB7;
+}
+
+
+
+#contenidor{
+    width: auto;
+    height: 916px;
+    position: relative;
+    background-color: #007FB7;
+ 
+}
+
+#pestaña1{
+    width: 420px;
+    height: 914px;
+    background-color: #007FB7;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#contenidor1{
+    width: 420px;
+    height: 816px;
+    background-color: white;
+    border-radius: 25px 25px 0 0;
+    position: relative;
+    z-index: 2;
+    top: -100px;
+}
+
+#superior{
+    width: auto;
+    height: 200px;
+    background-color: #007FB7;
+    position: relative;
+    z-index: 1;
+
+}
+
+#volver{
+    width: 40px;
+    height: 40px;
+    background-color: ;
+    position: relative;
+    top: 30px;
+    left: 23px;
+}
+
+#volver img{
+    width: 40px;
+    height: 40px;
+}
+
+#barra{
+    width: 150px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 136px;
+    margin-top: 15px;
+    position: relative;
+    top: -9px;
+}
+
+
+
+h2{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 90px;
+   
+}
+
+
+#txtboton{
+    width: 240px;
+    height: 50px;
+    background-color: ;
+    position: relative;
+    top: -35px;
+    left: 80px;
+}
+
+h3{
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#imatge{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: ;
+    margin: 0 auto;
+    top: 80px;
+}
+
+#imatge img{
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+.boto1{
+    width: 130px;
+    height: 70px;
+    background-color: #FF4E45;
+    border: #FF4E45 solid 2px;
+    position: relative;
+    top: 200px;
+    border-radius: 40px;
+    left: 34px;
+    color: white;
+}
+
+.boto1:hover{
+    background-color: white;
+    border: 2px solid #FF4E45;
+    color: #FF4E45;
+}
+
+.boto2{
+    width: 180px;
+    height: 70px;
+    background-color: #007FB7;
+    border: #007FB7 solid 2px;
+    position: relative;
+    top: 125px;
+    border-radius: 40px;
+    left: 200px;
+    color: white;
+}
+
+.boto2:hover{
+    background-color: white;
+    border: 2px solid #007FB7;
+    color: #007FB7;
+}

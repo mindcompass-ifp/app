@@ -1,0 +1,29 @@
+
+*{
+    font-family: helvetica;
+}
+
+body {
+    background-color: #007FB7;
+    height: auto;
+    width: auto;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+    background-color: w;
+    margin: 0 auto;
+    margin-top: 380px;
+}
+
+#logo img{
+    width: 200px;
+    height: 107px;
+    cursor: pointer;
+}
+
+#logo img:hover{
+    transform: scale(1.9);
+    transition: 1.5s;
+}

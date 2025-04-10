@@ -1,0 +1,180 @@
+*{
+    font-family: helvetica;
+}
+
+body {
+    background-color: white;
+    font-family: ;
+  
+   }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    width: auto;
+    height: 115px;
+    background-color: #007FB7;
+}
+
+
+
+#contenidor{
+    width: auto;
+    height: 916px;
+    position: relative;
+    background-color: #007FB7;
+ 
+}
+
+#pestaña1{
+    width: 420px;
+    height: 914px;
+    background-color: #007FB7;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#contenidor1{
+    width: 420px;
+    height: 716px;
+    background-color: white;
+    border-radius: 25px 25px 0 0;
+    position: relative;
+    z-index: 2;
+}
+
+#superior{
+    width: auto;
+    height: 200px;
+    background-color: #007FB7;
+    position: relative;
+    z-index: 1;
+
+}
+
+#volver{
+    width: 40px;
+    height: 40px;
+    background-color: ;
+    position: relative;
+    top: 30px;
+    left: 23px;
+}
+
+#volver img{
+    width: 40px;
+    height: 40px;
+}
+
+#barra{
+    width: 150px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 136px;
+    margin-top: 15px;
+    position: relative;
+    top: -9px;
+}
+
+#muneco{
+    width: auto;
+    height: 120px;
+    background-color: blueviolet;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#muneco img{
+    width: 430px;
+    height: 340px;
+    margin-top: -90px;
+}
+
+#pregunta{
+    width: auto;
+    height: 120px;
+    background-color: ;
+}
+
+#txtpregunta{
+    width: 300px;
+    background-color: white;
+    margin: 0 auto;
+    
+}
+
+h2{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+#boton{
+    width: 380px;
+    height: 80px;
+    background-color: rgb(233, 232, 232);
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 28px;
+}
+
+#boton:hover{
+    background-color: #66bfe6;
+    color: white;
+}
+
+#imagen{
+    width: 50px;
+    height: 50px;
+    background-color: ;
+    position: relative;
+    top: 15px;
+    left: 12px;
+
+}
+
+#txtboton{
+    width: 240px;
+    height: 50px;
+    background-color: ;
+    position: relative;
+    top: -35px;
+    left: 80px;
+}
+
+h3{
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+#imagen img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 6px;
+    left: 4px;
+}
+
+/*_______________animacion boton____________*/
+
+@keyframes in-circle-swoop {
+    from {
+      clip-path: var(--circle-top-right-out);
+    }
+    to {
+      clip-path: var(--circle-bottom-right-in);
+    }
+  }
+  
+  [transition-style="in:custom:circle-swoop"] {
+    --transition__duration: 5s;
+    animation-name: in-circle-swoop;
+  }

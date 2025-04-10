@@ -5,22 +5,26 @@
 
 body {
     background-color: #007FB7;
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
 
 #logo{
     width: 200px;
     height: 200px;
-    background-color: w;
+    background-color: red;
     margin: 0 auto;
-    margin-top: 380px;
+    margin-top: 50%;
+    
+   
 }
 
 #logo img{
     width: 200px;
     height: 107px;
     cursor: pointer;
+    position: relative;
+    
 }
 
 #logo img:hover{

@@ -5,8 +5,7 @@
 
 body {
     background-color: #007FB7;
-    height: 100%;
-    width: 100%;
+    margin: 0;
 }
 
 #logo{
@@ -14,9 +13,6 @@ body {
     height: 200px;
     background-color: red;
     margin: 0 auto;
-    margin-top: 50%;
-    
-   
 }
 
 #logo img{
@@ -30,4 +26,15 @@ body {
 #logo img:hover{
     transform: scale(1.9);
     transition: 1.5s;
+}
+
+#contenidor{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    z-index: 5;
+
+    align-content: center;
 }

@@ -9,7 +9,7 @@ body {
 
 header{
     width: 100%;
-    height: 160px;
+    height: 60px;
     background-color: #007FB7;
     position: fixed;
 }
@@ -101,7 +101,7 @@ h2{
     width: 10px;
     background-color: #007FB7;
     float: left;
-    position: relative;
+    position: absolute;
     top: 0;
 }
 
@@ -150,16 +150,18 @@ h2{
 
 
 #logo{
-    height: 90px;
+    height: 60px;
     width: 120px;
-    background-color: #007FB7;
+    background-color: #;
     margin: 0 auto;
 }
 
-img{
-    height: 65px;
-    width: 120px;
-    margin-top: 25px;
+#logo img{
+    height: 55px;
+    width: 100px;
+    position: relative;
+    left: 10px;
+ 
 }
 
 #calendari{
@@ -167,6 +169,7 @@ img{
     height: 60px;
     background-color: #007FB7;
     position: fixed;
+    top: 68px;
 }
 
 .bolas{
@@ -175,7 +178,7 @@ img{
     background-color: white;
     float: left;
     display: inline;
-    margin-top: 16px;
+    margin-top: 8px;
     margin-left: 12px;
     border-radius: 25px;
 }
@@ -183,7 +186,7 @@ img{
 #ttt{
     width: 413px;
     height: 65px;
-    background-color: #007FB7;
+    background-color: ;
     margin-top: 5px;
     margin: 0 auto;
 }
@@ -206,11 +209,11 @@ h6{
 
 #contenidor2{
     width: 390px;
-    height: 545px;
+    height: 482px;
     background-color: ;
     position: relative;
    
-    top: 165px;
+    top: 125px;
     margin: 0 auto;
    
   
@@ -227,7 +230,7 @@ header p{
 
 
 #footer{
-    height: 100px;
+    height: 50px;
     width: auto;
     background-color: #007FB7;
     margin-top: 10px;
@@ -238,29 +241,30 @@ header p{
 }
 
 .iconos{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background-color: ed;
     border-radius: 35px;
-    margin-left: 12px;
+    margin-left: 24px;
     
     display: inline-block;
-    margin-top: 11px;
+    margin-top: 6px;
 }
 
 #barra{
-    height: 60px;
+    height: 100px;
     width: 390px;
-    background-color:;
+    background-color:red;
     margin: 0 auto;
-    top: 15px;
+   
 }
 
 #barra img{
     width: 35px;
     height: 35px;
-    padding-top:-25px;
+    padding-top:0px;
     margin-left: 10px;
+    margin-top: 10;
 }
 
 .check img{
@@ -365,6 +369,8 @@ h4{
     height: 115px;
     background-color: transparent;
     margin: 0 auto;
+    position: relative;
+    left: -88px;
 }
 
 #recta{
@@ -426,6 +432,8 @@ h4{
     margin-top: -23px;
     padding-top: 10px;
     overflow-y: scroll;
+    position: relative;
+    left: -104px;
 }
 
 .cuadrado{

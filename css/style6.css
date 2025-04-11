@@ -33,15 +33,6 @@ header{
    
 }
 
-#pestaña1{
-    width: 390px;
-    height: 640px;
-    background-color: #007FB7;
-    margin: 0 auto;
-    margin-top: 10px;
-    border-radius: 20px;
-    z-index: 1;
-}
 
 #programa{
     width: 130px;
@@ -76,8 +67,8 @@ header{
     width: 260px;
     background-color: transparent;
     position: fixed;
-    margin-top: -100px;
-    margin-left: 130px;
+    
+
     z-index: 1;
 }
 
@@ -110,6 +101,8 @@ h2{
     width: 10px;
     background-color: #007FB7;
     float: left;
+    position: relative;
+    top: 0;
 }
 
 .p1 img{
@@ -126,6 +119,9 @@ h2{
     border-radius: 20px 20px 0 0;
     z-index: 5;
     margin-left: 130px;
+    position: relative;
+    top: 0;
+    
 }
 
 .p2 img{
@@ -142,7 +138,8 @@ h2{
     z-index: 3;
     margin-top: -50px;
     margin-left: 260px;
-
+    position: relative;
+    top: 0;
 }
 
 .p3 img{
@@ -209,10 +206,12 @@ h6{
 
 #contenidor2{
     width: 390px;
-    height: 500px;
+    height: 545px;
     background-color: ;
-    position: absolute;
-    margin-top: 20px;
+    position: relative;
+   
+    top: 165px;
+    margin: 0 auto;
    
   
 }

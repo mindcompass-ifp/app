@@ -1,29 +1,39 @@
 *{
     font-family: helvetica;
+    margin: 0;
 }
 
 body {
  background-color: #007FB7;
  font-family: ;
- height: auto;
+ position: relative;
+ height: 669px;
+ width: 390px;
+ margin: 0 auto;
+
 }
 
 #contenidor {
-    height:auto;
-    width: 430px;
-    background-color: ;
+    height: 669px;
+    width: 390px;
+    background-color: red;
     margin: 0 auto;
     z-index: 1;
+    position: relative;
 }
 
 #contenidor img {
-    height: auto;
-    width: 430px;
+    height: 669px;
+    width: 340px;
+    background-color: black;
+    position: relative;
+    left: 25px;
+   
 }
 
 #registre {
     height: 50px;
-    width: 410px;
+    width: 370px;
     border-radius: 25px;
     background-color: white;
     z-index: 2;
@@ -63,7 +73,7 @@ h4{
 
 #accedir{
     height: 50px;
-    width: 410px;
+    width: 370px;
     border-radius: 25px;
     background-color: #FF4E45;
     z-index: 2;

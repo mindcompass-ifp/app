@@ -8,15 +8,17 @@ body {
    }
 
 header{
-    width: auto;
+    width: 100%;
     height: 160px;
     background-color: #007FB7;
+    position: fixed;
 }
 
 #contenidor{
     width: auto;
     height: 680px;
     background-color: ;
+    position: relative;
 }
 
 #contenidor2{
@@ -164,9 +166,10 @@ img{
 }
 
 #calendari{
-    width: auto;
+    width: 100%;
     height: 60px;
     background-color: #007FB7;
+    position: fixed;
 }
 
 .bolas{
@@ -229,6 +232,10 @@ header p{
     width: auto;
     background-color: #007FB7;
     margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .iconos{

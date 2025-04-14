@@ -22,9 +22,9 @@ header{
 }
 
 #contenidor2{
-    width: 390px;
+    width: 380px;
     height: 510px;
-    background-color: #007FB7;
+    background-color: red;
     margin-top: 15px;
     position: absolute;
     overflow-y: scroll;
@@ -403,6 +403,7 @@ h4{
     float: left;
     margin-left: 51.5px;
     margin-top: 9px;
+    display: inline;
 }
 
 #ttabla h1{

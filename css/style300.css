@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    font-family: helvetica;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+body{
+    background-color: white;
+}
+
+#header{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: #007FB7;
+}
+
+/*_______________________calendari_____________________*/
+
+#calendari{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: #007FB7;
+    top: 60px;
+}
+
+#calendari2{
+    position: relative;
+    width: 390px;
+    height: 60px;
+    background-color: #007FB7;
+    margin: 0 auto;
+    overflow-x: scroll;
+}
+
+.bola{
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border-radius: 50%;
+    float: left;
+    margin-left: 12.5px;
+    margin-top: 5px;
+    margin-bottom: 2.5px;
+    border: solid 0.5px white;
+}
+
+.txt1{
+    width: 40px;
+    height: 25px;
+    background-color: ;
+    position: relative;
+    top: 7px;
+    left: -1px;
+    margin: 0 auto;
+}
+
+    .dia{
+        font-size: 0.8rem;
+        text-align: center;
+        font-weight: 400;
+        left: 2px;
+        position: relative;
+    }
+
+.txt2{
+    width: 40px;
+    height: 25px;
+    background-color: ;
+    position: relative;
+    top: 0px;
+    left: -1px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 22px;
+}
+
+    .num{
+        text-align: center;
+        position: relative;
+        top: -3px;
+        left: 2px;
+    
+    }
+
+/*_______________________calendari_____________________*/
+
+#logoimg{
+    height: 100%;
+    width: 80px;
+    background-color: ;
+    position: relative;
+    margin: 0 auto;
+}
+
+#logoimg img{
+    width: 80px;
+    height: 45px;
+    position: relative;
+    top: 8px;
+}
+
+/*_______________________footer_____________________*/
+
+#footer{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(153, 69, 69);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#footer2{
+    width: 390px;
+    height: 100%;
+    background-color:#007FB7;
+    position: relative;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.icon{
+    width: 52px;
+    height: 52px;
+    background-color: ;
+    float: left;
+    margin-left: 22px;
+    margin-top: 4px;
+}
+
+
+
+.check img{
+    width: 40px;
+    height: 34px;
+    position: relative;
+    top: 9px;
+    left: 4px;
+    opacity: 80%;
+}
+
+.lupa img{
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+    opacity: 80%;
+}
+
+.home{
+    background-color: #225587;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    margin-left: 17px;
+    margin-right: -7px;
+    top: -20px;
+    position: relative;
+    border: solid 4px white;
+    position: relative;
+    z-index: 4;
+}
+
+.home img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 10px;
+    left: 12px;
+    
+}
+
+.zen img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    opacity: 80%;
+}
+
+.config img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    opacity: 80%;
+}
+
+/*_______________________footer_____________________*/
+
+#contenidor1{
+    width: 375px;
+    height: 477px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #007FB7;
+    top: 126px;
+    border-radius:5%;
+}

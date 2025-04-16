@@ -1,0 +1,699 @@
+*{
+    margin: 0;
+    font-family: helvetica;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+body{
+    background-color: white;
+}
+
+#header{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: #007FB7;
+}
+
+/*_______________________calendari_____________________*/
+
+#calendari{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: #007FB7;
+    top: 60px;
+}
+
+#calendari2{
+    position: relative;
+    width: 390px;
+    height: 60px;
+    background-color: #007FB7;
+    margin: 0 auto;
+    overflow-x: scroll;
+}
+
+.bola{
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border-radius: 50%;
+    float: left;
+    margin-left: 12.5px;
+    margin-top: 5px;
+    margin-bottom: 2.5px;
+    border: solid 0.5px white;
+}
+
+.txt1{
+    width: 40px;
+    height: 25px;
+    background-color: ;
+    position: relative;
+    top: 7px;
+    left: -1px;
+    margin: 0 auto;
+}
+
+    .dia{
+        font-size: 0.8rem;
+        text-align: center;
+        font-weight: 400;
+        left: 2px;
+        position: relative;
+    }
+
+.txt2{
+    width: 40px;
+    height: 25px;
+    background-color: ;
+    position: relative;
+    top: 0px;
+    left: -0.5px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 22px;
+}
+
+    .num{
+        text-align: center;
+        position: relative;
+        top: -3px;
+        left: 2px;
+    
+    }
+
+/*_______________________calendari_____________________*/
+
+#logoimg{
+    height: 100%;
+    width: 80px;
+    background-color: ;
+    position: relative;
+    margin: 0 auto;
+}
+
+#logoimg img{
+    width: 80px;
+    height: 45px;
+    position: relative;
+    top: 8px;
+}
+
+
+
+
+/*_______________________pestanyes_____________________*/
+.pestana{
+    width: 125px;
+    height: 40px ;
+    border-radius: 15px 15px 0 0;
+    background-color: ;
+    float: left;
+}
+
+.n1{
+    background-color: #225587;
+}
+
+.pestanan1{
+    font-size: 0.8rem;
+    color: white;
+    position: relative;
+    top: 13px;
+    padding-left: 50px;
+}
+
+.n1 img{
+    width: 34px;
+    height: 26px;
+    position: relative;
+    top: 12px;
+    left: 50px;
+}
+
+.n2{
+    background-color: #225587;
+}
+
+.n2 img{
+    width: 40px;
+    height: 20px;
+    position: relative;
+    top: 11px;
+    left: 43px;
+}
+
+.n3{
+    background-color: #007FB7;
+}
+
+.pestanan3{
+    font-size: 1.1rem;
+    color: white;
+    position: relative;
+    top: 11px;
+    padding-left: 15px;
+}
+
+.n3 img{
+    width: 31px;
+    height: 28px;
+    position: relative;
+    top: 8px;
+    left: 50px;
+}
+
+/*_______________________pestanyes_____________________*/
+
+
+/*_______________________contenidor_______________*/
+
+#contenidor1{
+    width: 375px;
+    height: 477px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #007FB7;
+    top: 126px;
+    border-radius:5%;
+}
+
+/*_____________desplegable____________*/
+
+#desplegable{
+    width: 120px;
+    height: 25px;
+    background-color: #225587;
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+    left: 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pdesplegable{
+    font-size: 0.85rem;
+    position: relative;
+    top: -34px;
+    left: 0px;
+    font-weight: 600;
+    color: white;
+}
+
+#desplegable img{
+    width: 13px;
+    height: 8px;
+    position: relative;
+    top: -51px;
+    left: 120px;
+}
+
+/*_____________desplegable____________*/
+
+
+
+
+#mes{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #225587;
+    top: 545px;
+    left: 310px;
+    opacity: 80%;
+}
+
+#mes:hover{
+    opacity: 100%;
+}
+
+#mes img{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 5px;
+}
+
+/*_______________________contenidor_______________*/
+
+#contenidor2{
+    width: 375px;
+    height: 380px;
+    background-color: #007FB7;
+    position: relative;
+    top: 48px;
+    border-radius: 0 0 17px 17px;
+    overflow: scroll;
+}
+
+#contenidor3{
+    width: 334px;
+    height: 95px;
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    top: -38px;
+    border-radius: 20px 20px 0 0;
+}
+
+.papp{
+    font-size: 0.85rem;
+    position: relative;
+    top: 60px;
+    left: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h3{
+    color: white;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.txttaula1{
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+/*_________________________taula estadistica________________________*/
+#taula{
+    width: 310px;
+    height: 115px;
+    background-color: transparent;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+
+#recta{
+    width: 14px;
+    height: 115px;
+    background-color: transparent;
+    float: left;
+    margin-left: 4px;
+}
+
+.positiu{
+    width: 14px;
+    height: 56px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu {
+    width: 14px;
+    height: 56px;
+    background-color: red;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu1{
+    width: 14px;
+    height: 80px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu1 {
+    width: 14px;
+    height: 32px;
+    background-color: red;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu2{
+    width: 14px;
+    height: 72px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu2 {
+    width: 14px;
+    height: 40px;
+    background-color: red;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu3{
+    width: 14px;
+    height: 115px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu3{
+    width: 14px;
+    height: 56px;
+    background-color: transparent;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu4{
+    width: 14px;
+    height: 115px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu4{
+    width: 14px;
+    height: 56px;
+    background-color: transparent;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu5{
+    width: 14px;
+    height: 38px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu5{
+    width: 14px;
+    height: 74px;
+    background-color: red;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu6{
+    width: 14px;
+    height: 97px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu6{
+    width: 14px;
+    height: 15px;
+    background-color: red;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu7{
+    width: 14px;
+    height: 80px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu7{
+    width: 14px;
+    height: 32px;
+    background-color: red;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu8{
+    width: 14px;
+    height: 115px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu8{
+    width: 14px;
+    height: 32px;
+    background-color: transparent;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu9{
+    width: 14px;
+    height: 87px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu9{
+    width: 14px;
+    height: 25px;
+    background-color: red;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu10{
+    width: 14px;
+    height: 58px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu10{
+    width: 14px;
+    height: 54px;
+    background-color: red;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu11{
+    width: 14px;
+    height: 50px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu11{
+    width: 14px;
+    height: 62px;
+    background-color: red;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu12{
+    width: 14px;
+    height: 42px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu12{
+    width: 14px;
+    height: 70px;
+    background-color: red;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu13{
+    width: 14px;
+    height: 56px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu13{
+    width: 14px;
+    height: 56px;
+    background-color: red;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu14{
+    width: 14px;
+    height: 115px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu14{
+    width: 14px;
+    height: 56px;
+    background-color: transparent;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu15{
+    width: 14px;
+    height: 80px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu15{
+    width: 14px;
+    height: 32px;
+    background-color: red;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.positiu16{
+    width: 14px;
+    height: 38px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.negatiu16{
+    width: 14px;
+    height: 74px;
+    background-color: red;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+.negatiu17{
+    width: 14px;
+    height: 56px;
+    background-color: transparent;
+    margin-top: 3px;
+    border-radius: 4px;
+}
+
+
+.positiu17{
+    width: 14px;
+    height: 115px;
+    background-color: rgb(151, 228, 35);
+    border-radius: 4px;
+}
+
+.numtaula{
+    background-color: ;
+    width: 20px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 33px;
+    
+    float: left;
+    margin-left: 46px;
+}
+
+h6{
+    position: relative;
+    top: 5px;
+}
+/*_________________________taula estadistica________________________*/
+
+
+
+/*_______________________contenidor_______________*/
+/*_______________________footer_____________________*/
+
+#footer{
+    height: 60px;
+    width: 100%;
+    background-color: #007FB7;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#footer2{
+    width: 390px;
+    height: 100%;
+    background-color:#007FB7;
+    position: relative;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.icon{
+    width: 52px;
+    height: 52px;
+    background-color: ;
+    float: left;
+    margin-left: 22px;
+    margin-top: 4px;
+}
+
+
+
+.check img{
+    width: 40px;
+    height: 34px;
+    position: relative;
+    top: 9px;
+    left: 4px;
+    opacity: 80%;
+}
+
+.lupa img{
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+    opacity: 80%;
+}
+
+.home{
+    background-color: #225587;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    margin-left: 17px;
+    margin-right: -7px;
+    top: -20px;
+    position: relative;
+    border: solid 4px white;
+    position: relative;
+    z-index: 4;
+}
+
+.home img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 10px;
+    left: 12px;
+    
+}
+
+.zen img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    opacity: 80%;
+}
+
+.config img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    opacity: 80%;
+}
+
+/*_______________________footer_____________________*/

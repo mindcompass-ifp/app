@@ -9,7 +9,7 @@
 
 
 body{
-    background-color: white;
+    background-color: #007FB7;
 }
 
 #header{
@@ -138,7 +138,7 @@ body{
 }
 
 .n2{
-    background-color: #225587;
+    background-color: #007FB7;
 }
 
 .n2 img{
@@ -150,7 +150,7 @@ body{
 }
 
 .n3{
-    background-color: #007FB7;
+    background-color: #225587;
 }
 
 .pestanan3{
@@ -176,18 +176,20 @@ body{
 
 #contenidor1{
     width: 375px;
-    height: 477px;
+    height: 525px;
     position: relative;
     margin: 0 auto;
     background-color: #007FB7;
-    top: 126px;
+    top: 66px;
     border-radius:5%;
+    z-index: 300;
 }
+
 
 /*_____________desplegable____________*/
 
 #desplegable{
-    width: 120px;
+    width: 180px;
     height: 25px;
     background-color: #225587;
     position: relative;
@@ -247,363 +249,74 @@ body{
 
 #contenidor2{
     width: 375px;
-    height: 380px;
+    height: 515px;
     background-color: #007FB7;
     position: relative;
-    top: 48px;
+    top: 10px;
     border-radius: 0 0 17px 17px;
     overflow: scroll;
 }
 
-#contenidor3{
-    width: 334px;
-    height: 95px;
-    background-color: white;
+#contenidor2 img{
     position: relative;
-    margin: 0 auto;
-    top: -38px;
-    border-radius: 20px 20px 0 0;
-}
-
-.papp{
-    font-size: 0.85rem;
-    position: relative;
-    top: 60px;
-    left: 20px;
-    font-weight: 600;
-    color: white;
-}
-
-h1{
-    color: white;
-    text-align: center;
-    font-size: 2.5rem;
-}
-
-h3{
-    color: white;
-    font-size: 0.75rem;
-    text-align: center;
-}
-
-.txttaula1{
-    color: white;
-    font-size: 0.7rem;
-    text-align: center;
-    position: relative;
-    top: 20px;
-}
-
-/*_________________________taula estadistica________________________*/
-#taula{
-    width: 310px;
-    height: 115px;
-    background-color: transparent;
-    margin: 0 auto;
-    position: relative;
-    top: 30px;
-}
-
-#recta{
-    width: 14px;
-    height: 115px;
-    background-color: transparent;
-    float: left;
-    margin-left: 4px;
-}
-
-.positiu{
-    width: 14px;
-    height: 56px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu {
-    width: 14px;
-    height: 56px;
-    background-color: red;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu1{
-    width: 14px;
-    height: 80px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu1 {
-    width: 14px;
-    height: 32px;
-    background-color: red;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu2{
-    width: 14px;
-    height: 72px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu2 {
-    width: 14px;
-    height: 40px;
-    background-color: red;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu3{
-    width: 14px;
-    height: 115px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu3{
-    width: 14px;
-    height: 56px;
-    background-color: transparent;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu4{
-    width: 14px;
-    height: 115px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu4{
-    width: 14px;
-    height: 56px;
-    background-color: transparent;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu5{
-    width: 14px;
-    height: 38px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu5{
-    width: 14px;
-    height: 74px;
-    background-color: red;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu6{
-    width: 14px;
-    height: 97px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu6{
-    width: 14px;
-    height: 15px;
-    background-color: red;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu7{
-    width: 14px;
-    height: 80px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu7{
-    width: 14px;
-    height: 32px;
-    background-color: red;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu8{
-    width: 14px;
-    height: 115px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu8{
-    width: 14px;
-    height: 32px;
-    background-color: transparent;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu9{
-    width: 14px;
-    height: 87px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu9{
-    width: 14px;
-    height: 25px;
-    background-color: red;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu10{
-    width: 14px;
-    height: 58px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu10{
-    width: 14px;
-    height: 54px;
-    background-color: red;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu11{
-    width: 14px;
-    height: 50px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu11{
-    width: 14px;
-    height: 62px;
-    background-color: red;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu12{
-    width: 14px;
-    height: 42px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu12{
-    width: 14px;
-    height: 70px;
-    background-color: red;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu13{
-    width: 14px;
-    height: 56px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu13{
-    width: 14px;
-    height: 56px;
-    background-color: red;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu14{
-    width: 14px;
-    height: 115px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu14{
-    width: 14px;
-    height: 56px;
-    background-color: transparent;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu15{
-    width: 14px;
-    height: 80px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu15{
-    width: 14px;
-    height: 32px;
-    background-color: red;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.positiu16{
-    width: 14px;
-    height: 38px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.negatiu16{
-    width: 14px;
-    height: 74px;
-    background-color: red;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-.negatiu17{
-    width: 14px;
-    height: 56px;
-    background-color: transparent;
-    margin-top: 3px;
-    border-radius: 4px;
-}
-
-
-.positiu17{
-    width: 14px;
-    height: 115px;
-    background-color: rgb(151, 228, 35);
-    border-radius: 4px;
-}
-
-.numtaula{
-    background-color: ;
-    width: 20px;
-    height: 20px;
-    color: white;
-    text-align: center;
-    position: relative;
-    top: 33px;
-    
-    float: left;
-    margin-left: 46px;
-}
-
-h6{
-    position: relative;
+    width: 30px;
+    height: 30px;
     top: 5px;
 }
-/*_________________________taula estadistica________________________*/
 
+.volver{
+    color: white;
+    position: relative;
+    font-size: 1.5rem;
+    top: -27px;
+    left: 120px;
+}
 
+.apartado{
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    top: -10px;
+    margin: 0 auto;
+}
 
+.ap2{
+    margin-top: 10px;
+    position: relative;
+    height: 140px;
+}
+
+.ap3{
+    margin-top: 10px;
+    position: relative;
+    height: 100px;
+}
+
+.ap4{
+    margin-top: 10px;
+    position: relative;
+    height: 60px;
+}
+
+.crear{
+    width: 180px;
+    height: 35px;
+    margin: 0 auto;
+    background-color: red;
+    position: relative;
+    border-radius: 30px;
+    border: solid white 2px;
+}
+
+.arriba{
+    width: 100%;
+    height: 18px;
+    background-color: #225587;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+}
 /*_______________________contenidor_______________*/
 /*_______________________footer_____________________*/
 

@@ -301,13 +301,29 @@ body{
 }
 
 .crear{
-    width: 180px;
-    height: 35px;
+    width: 160px;
+    height: 30px;
     margin: 0 auto;
     background-color: red;
     position: relative;
     border-radius: 30px;
     border: solid white 2px;
+}
+
+.pcrear{
+    font-size: 0.8rem;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 7px;
+}
+
+.parriba{
+    position: relative;
+    font-size: 0.75rem;
+    color: white;
+    top: 2px;
+    text-align: center;
 }
 
 .arriba{
@@ -316,6 +332,135 @@ body{
     background-color: #225587;
     position: relative;
     border-radius: 10px 10px 0 0;
+}
+
+.op{
+    width: 300px;
+    height: 23px;
+    background-color: #225587;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-radius: 20px;
+    opacity: 85%;
+}
+
+.txtop1{
+    color: white;
+    font-size: 0.9rem;
+    top: 3px;
+    left: 13px;
+    position: relative;
+}
+
+#semana{
+    width: auto;
+    height: 22px;
+    background-color: ;
+    position: relative;
+    top: 6px;
+  
+}
+
+.dia{
+    height: 22px;
+    width: 37px;
+    background-color: #225587;
+    position: relative;
+    margin-left: 11px;
+    float: left;
+    border-radius: 10px;
+    opacity: 85%;
+}
+
+.pdia{
+    color: white;
+    position: relative;
+    top: 4px;
+}
+
+#taula{
+    width: auto;
+    height: 40px;
+    background-color: ;
+    position: relative;
+    top: 12px;
+}
+
+.taula2{
+    background-color: white;
+    height: 100%;
+    width: 116.66px;
+    float: left;
+
+}
+
+.dia2{
+    background-color: white;
+    height: 40px;
+    width: 116.50px;
+}
+
+.tau3{
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.tau4{
+    background-color: white;
+}
+
+.ptaula2{
+    color: #225587;
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-weight: 600;
+}
+
+.numero{
+    color: #225587;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    top: 8px;
+}
+
+
+.esp{
+    background-color: #78b3ee;
+  
+}
+
+#botonrec{
+    width: 300px;
+    height: 27px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #225587;
+    top: 7px;
+    border-radius: 8px;
+    opacity: 85%;;
+}
+
+.precordatori{
+    color: white;
+    position: relative;
+    font-size: 0.8rem;
+    top: 5px;
+    left: 8px;
+}
+
+.switch{
+    position: relative;
+    height: 18px;
+    width: 40px;
+    background-color: #78b3ee;
+    top: -10px;
+    left: 254px;
+    border-radius: 80px;
 }
 /*_______________________contenidor_______________*/
 /*_______________________footer_____________________*/
@@ -409,4 +554,7 @@ body{
     opacity: 80%;
 }
 
+a{
+    text-decoration: none;
+}
 /*_______________________footer_____________________*/

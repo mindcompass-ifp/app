@@ -269,7 +269,7 @@ body{
     position: relative;
     font-size: 1.5rem;
     top: -27px;
-    left: 120px;
+    left: 95px;
 }
 
 .apartado{
@@ -285,37 +285,38 @@ body{
 .ap2{
     margin-top: 10px;
     position: relative;
-    height: 140px;
+    height: 110px;
 }
 
 .ap3{
     margin-top: 10px;
     position: relative;
-    height: 100px;
+    height: 90px;
 }
 
 .ap4{
     margin-top: 10px;
     position: relative;
-    height: 60px;
+    height: 75px;
 }
 
-.crear{
-    width: 160px;
-    height: 30px;
-    margin: 0 auto;
+.ap5{
+    margin-top: 12px;
+    position: relative;
+    height: 50px;
+    background-color: transparent;
+}
+
+.botton{
+    height: 38px;
+    width: 120px;
+    border-radius: 10px;
     background-color: red;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
     position: relative;
-    border-radius: 30px;
-    border: solid white 2px;
-}
-
-.pcrear{
-    font-size: 0.8rem;
-    color: white;
-    position: relative;
-    text-align: center;
-    top: 7px;
+   left: 43px;
 }
 
 .parriba{

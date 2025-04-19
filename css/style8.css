@@ -435,34 +435,42 @@ body{
   
 }
 
-#botonrec{
-    width: 300px;
-    height: 27px;
+.pap3{
+    color: #225587;
+    font-size: 0.9rem;
     position: relative;
-    margin: 0 auto;
+    top: 4px;
+    left: 50px;
+    margin-top: 6px;
+}
+
+#btn1{
+    width: 160px;
+    height: 17px;
     background-color: #225587;
-    top: 7px;
-    border-radius: 8px;
-    opacity: 85%;;
+    position: relative;
+    left: 150px;
+    top: -57px;
+    border-radius: 5px;
 }
 
-.precordatori{
+#btn2{
+    width: 160px;
+    height: 17px;
+    background-color: #225587;
+    position: relative;
+    left: 150px;
+    top: -52px;
+    border-radius: 5px;
+}
+
+.btn{
     color: white;
+    font-size: 0.9rem;
     position: relative;
-    font-size: 0.8rem;
-    top: 5px;
-    left: 8px;
+    left: 40px;
 }
 
-.switch{
-    position: relative;
-    height: 18px;
-    width: 40px;
-    background-color: #78b3ee;
-    top: -10px;
-    left: 254px;
-    border-radius: 80px;
-}
 /*_______________________contenidor_______________*/
 /*_______________________footer_____________________*/
 

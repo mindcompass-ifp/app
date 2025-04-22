@@ -1,184 +1,242 @@
 *{
+    margin: 0;
     font-family: helvetica;
 }
 
-body {
-    background-color: white;
-    font-family: ;
-  
-   }
-
-a{
-    text-decoration: none;
-    color: black;
+::-webkit-scrollbar {
+    display: none;
 }
 
-header{
-    width: auto;
-    height: 115px;
+
+body{
     background-color: #007FB7;
 }
 
-
-
-#contenidor{
-    width: auto;
-    height: 916px;
-    position: relative;
+#header{
+    position: fixed;
+    height: 60px;
+    width: 100%;
     background-color: #007FB7;
- 
 }
 
-#pestaña1{
-    width: 420px;
-    height: 914px;
-    background-color: #007FB7;
-    margin: 0 auto;
-    z-index: 1;
-}
-
-#contenidor1{
-    width: 420px;
-    height: 716px;
-    background-color: white;
-    border-radius: 25px 25px 0 0;
+#vlv img{
+    width: 35px;
+    height: 35px;
     position: relative;
-    z-index: 2;
-}
-
-#superior{
-    width: auto;
-    height: 200px;
-    background-color: #007FB7;
-    position: relative;
-    z-index: 1;
-
-}
-
-#volver{
-    width: 40px;
-    height: 40px;
-    background-color: ;
-    position: relative;
-    top: 30px;
-    left: 23px;
-}
-
-#volver img{
-    width: 40px;
-    height: 40px;
+    top: 15px;
+    left: 10px;
 }
 
 #barra{
-    width: 150px;
-    height: 10px;
-    border-radius: 20px;
     background-color: white;
-    margin-left: 136px;
-    margin-top: 15px;
+    border-radius: 20px;
+    width: 150px;
+    height: 12px;
     position: relative;
-    top: -9px;
+    left: 121px;
+    bottom: 10px;
 }
 
-#muneco{
-    width: auto;
-    height: 120px;
-    background-color: blueviolet;
+#imgsuperior{
+    width: 375px;
+    height: 100px;
+    border-radius: 15px;
     position: relative;
     margin: 0 auto;
-    margin-top: 15px;
-    border-radius: 20px;
+    background-color: ;
     overflow: hidden;
 }
-
-#muneco img{
-    width: 430px;
-    height: 340px;
-    margin-top: -90px;
+#imgsuperior img{
+    width: 379px;
+    height: 230px;
+    bottom: 61.5px;
+    position: relative;
 }
 
-#pregunta{
-    width: auto;
-    height: 120px;
-    background-color: ;
-}
-
-#txtpregunta{
-    width: 300px;
+#desplegable{
+    width: 375px;
+    height: 498px;
     background-color: white;
+    position: relative;
+    margin-top: 5px;
+    border-radius: 15px 15px 0 0;
+}
+
+#titol{
+    width: 300px;
+    height:60px;
+    background-color: ;
+    position: relative;
     margin: 0 auto;
-    
-}
-
-h2{
-    margin-top: 0px;
+    font-size: 0.8rem;
     text-align: center;
-    font-size: 25px;
-    padding-top: 50px;
+    top: 30px;
 }
 
-#boton{
-    width: 380px;
-    height: 80px;
-    background-color: rgb(233, 232, 232);
+.boton{
+    width: 330px;
+    height: 65px;
+    background-color: rgb(230, 230, 230);
+    position: relative;
     margin: 0 auto;
     margin-top: 20px;
-    border-radius: 28px;
+    top: 30px;
+    border-radius: 25px;
 }
 
-#boton:hover{
+.boton:hover{
     background-color: #66bfe6;
     color: white;
 }
 
-#imagen{
-    width: 50px;
-    height: 50px;
-    background-color: ;
+.boton img{
+    width: 35px;
+    height: 33px;
     position: relative;
-    top: 15px;
-    left: 12px;
-
+    top: 17px;
+    left: 15px;
 }
 
-#txtboton{
-    width: 240px;
-    height: 50px;
+.txt{
+    width: 200px;
+    height: 30px;
     background-color: ;
     position: relative;
-    top: -35px;
+    bottom: 23px;
     left: 80px;
 }
 
-h3{
-    margin-top: 5px;
-    font-weight: 400;
-}
-
-.retoc{
-    margin-top: 15px;
-}
-
-#imagen img{
-    width: 40px;
-    height: 40px;
+.pboton{
+    font-size: 1.2rem;
     position: relative;
-    top: 6px;
-    left: 4px;
+    top: 8px;
+    font-weight: 500;
+}
+/*_______________________pestanyes_____________________*/
+
+
+/*_______________________contenidor_______________*/
+
+#contenidor1{
+    width: 375px;
+    height: 603px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #007FB7;
+    top: 66px;
+    border-radius:15px 2% 0 0;
+    z-index: 300;
 }
 
-/*_______________animacion boton____________*/
 
-@keyframes in-circle-swoop {
-    from {
-      clip-path: var(--circle-top-right-out);
-    }
-    to {
-      clip-path: var(--circle-bottom-right-in);
-    }
-  }
-  
-  [transition-style="in:custom:circle-swoop"] {
-    --transition__duration: 5s;
-    animation-name: in-circle-swoop;
-  }
+/*_______________________contenidor_______________*/
+
+#contenidor2{
+    width: 375px;
+    height: 603px;
+    background-color: #007FB7;
+    position: relative;
+    top: 0px;
+   
+    overflow: scroll;
+}
+
+
+
+
+/*_______________________contenidor_______________*/
+/*_______________________footer_____________________*/
+
+#footer{
+    height: 60px;
+    width: 100%;
+    background-color: #007FB7;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#footer2{
+    width: 390px;
+    height: 100%;
+    background-color:#007FB7;
+    position: relative;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.icon{
+    width: 52px;
+    height: 52px;
+    background-color: ;
+    float: left;
+    margin-left: 22px;
+    margin-top: 4px;
+}
+
+
+
+.check img{
+    width: 40px;
+    height: 34px;
+    position: relative;
+    top: 9px;
+    left: 4px;
+    opacity: 80%;
+}
+
+.lupa img{
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+    opacity: 80%;
+}
+
+.home{
+    background-color: #225587;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    margin-left: 17px;
+    margin-right: -7px;
+    top: -20px;
+    position: relative;
+    border: solid 4px white;
+    position: relative;
+    z-index: 4;
+}
+
+.home img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 10px;
+    left: 12px;
+    
+}
+
+.zen img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    opacity: 80%;
+}
+
+.config img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    opacity: 80%;
+}
+
+a{
+    text-decoration: none;
+}
+/*_______________________footer_____________________*/

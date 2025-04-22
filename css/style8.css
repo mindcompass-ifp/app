@@ -464,11 +464,28 @@ body{
     border-radius: 5px;
 }
 
+#btn3{
+    width: 160px;
+    height: 17px;
+    background-color: #225587;
+    position: relative;
+    left: 150px;
+    top: -47px;
+    border-radius: 5px;
+}
+
 .btn{
     color: white;
     font-size: 0.9rem;
     position: relative;
     left: 40px;
+}
+
+.btnesp{
+    color: white;
+    font-size: 0.9rem;
+    position: relative;
+    left: 48px;
 }
 
 /*_______________________contenidor_______________*/

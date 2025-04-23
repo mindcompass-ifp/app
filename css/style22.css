@@ -112,6 +112,11 @@ body{
     top: 10px;
     font-weight: 500;
 }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
 /*_______________________pestanyes_____________________*/
 
 

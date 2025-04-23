@@ -9,14 +9,22 @@
 
 
 body{
-    background-color: #007FB7;
+    background-color: white;
+    
 }
 
 #header{
     position: fixed;
     height: 60px;
     width: 100%;
-    background-color: #007FB7;
+    background-color: white ;
+}
+
+h2{
+    position: relative;
+    bottom: 20px;
+    left: 130px;
+    color: #007FB7;
 }
 
 #vlv img{
@@ -25,6 +33,7 @@ body{
     position: relative;
     top: 15px;
     left: 10px;
+    background-color: #007FB7;
 }
 
 #barra{
@@ -43,7 +52,7 @@ body{
     border-radius: 15px;
     position: relative;
     margin: 0 auto;
-    background-color: grey;
+    background-color: ;
     overflow: hidden;
 }
 #imgsuperior img{
@@ -55,85 +64,262 @@ body{
 
 #desplegable{
     width: 375px;
-    height: 598px;
-    background-color: white;
+    height: 458px;
+    background-color: #007FB7;
     position: relative;
-    margin-top: 5px;
+    margin-top: 145px;
     border-radius: 15px 15px 0 0;
 }
 
-#txtcentre{
-    width: 350px;
-    height: 200px;
-    background-color: ;
+#cercle1{
+    width: 170px;
+    height: 170px;
     position: relative;
-    margin: 0 auto;
-    top: 30px;
-}
-
-#firma{
-    width: 320px;
-    height: 150px;
-    background-color:rgb(223, 223, 223) ;
-    position: relative;
-    margin: 0 auto;
-    opacity: 80%;
-    top: 60px;
-    border-radius: 25px;
-}
-
-.txtfirma{
-    position: relative;
-    font-size: 0.8rem;
-    top: 10px;
-}
-.boto1{
-    width: 200px;
-    height: 55px;
-    background-color: ;
-    border: #007FB7 solid 2px;
-    position: relative;
-    top: 90px;
-    border-radius: 40px;
-    left: 90px;
-    color: white;
-}
-
-.boto1:hover{
     background-color: #007FB7;
-    border: 2px solid #007FB7;
-    color: white;
-}
-
-
-#titol{
-    width: 330px;
-    height:60px;
-    background-color: ;
-    position: relative;
     margin: 0 auto;
-    font-size: 0.8rem;
-    text-align: center;
-    top: 30px;
+    border-radius: 50%;
+    bottom: 120px;
 }
 
-h3{
+#cercle2{
+    width: 130px;
+    height: 130px;
     position: relative;
-    top: 16px;
-    left: 55px;
+    background-color: #225587;
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 20px;
+
+}
+
+#cercle3{
+    width: 105px;
+    height: 105px;
+    position: relative;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 13px;
+
+}
+
+.txtbola1{
+    font-size: 3.5rem;
+    position: relative;
+    left: 36px;
+    top: 8px;
     color: #007FB7;
 }
 
-p{
-    margin-top: 10px;
+.txtbola2{
+    font-size: 1.15rem;
+    color: #007FB7;
+    font-weight: 600;
+    left: 32px;
     position: relative;
+}
+
+#actiu{
+    background-color: #03ad2e;
+    width: 80px;
+    height: 21px;
+    position: relative;
+    bottom: 150px;
     left: 20px;
+    border-radius: 5px;
 }
 
-.llarg{
-    left: 26px;
+#personalitzar{
+    background-color: #04bef7;
+    width: 90px;
+    height: 21px;
+    position: relative;
+    bottom: 171px;
+    left: 266px;
+    border-radius: 5px;
 }
 
+.bola{
+    background-color: rgb(206, 206, 206);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    bottom: 160px;
+    margin-left: 60px;
+    
+    margin-top: 40px;
+    left: -22px;
+}
+
+.bolaesp1{
+    background-color: rgb(206, 206, 206);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    left: 158px;
+    bottom: 266px;
+  
+}
+
+.bolaesp2{
+    background-color: rgb(206, 206, 206);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    left: 278px;
+    bottom: 326px;
+  
+}
+
+.bolaesp3{
+    background-color: rgb(206, 206, 206);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    left: 38px;
+    bottom: 279px;
+  
+}
+
+.bolaesp4{
+    background-color: rgb(206, 206, 206);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    left: 158px;
+    bottom: 339px;
+  
+}
+
+.txtbola{
+    width: 100px;
+    height: 20px;
+    background-color: ;
+    position: relative;
+    top: 66px;
+    left: -17px;
+}
+
+.txtbolaesp{
+    width: 100px;
+    height: 30px;
+    background-color: ;
+    position: relative;
+    top: 66px;
+    left: -17px;
+    text-align: center;
+}
+
+.subtitol{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.subtitolesp{
+    color: white;
+    font-size: 0.8rem;
+    left: -1px;
+}
+
+.dos{
+    position: relative;
+    left: 6px;
+}
+
+.tres{
+    position: relative;
+    left: 2px;
+}
+
+#mes{
+    width: 45px;
+    height: 45px;
+    background-color: #225587;
+    position: relative;
+    bottom: 390px;
+    border-radius: 50%;
+    left: 285px;
+}
+
+#mes img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.bola img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
+.bolaesp1 img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
+.bolaesp2 img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+.bolaesp3 img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+.ii img{
+    position: relative;
+    bottom: 17px;
+}
+
+.iii img{
+    position: relative;
+    bottom: 18px;
+}
+
+.txtactiu{
+    color: white;
+    font-size: 0.8rem;
+    position: relative;
+    top: 3px;
+    left: 12px;
+}
+
+.txtpersonalitzar{
+    color: #225587 ;
+    font-size: 0.8rem;
+    position: relative;
+    top: 3px;
+    left: 8px;
+}
+
+#actiu img{
+    width: 12px;
+    height: 6px;
+    position: relative;
+    bottom: 14px;
+    left: 57px;
+}
 /*_______________________pestanyes_____________________*/
 
 
@@ -156,11 +342,11 @@ p{
 #contenidor2{
     width: 375px;
     height: 603px;
-    background-color: #007FB7;
+    background-color: white;
     position: relative;
     top: 0px;
    
-    overflow: scroll;
+    overflow: hidden;
 }
 
 

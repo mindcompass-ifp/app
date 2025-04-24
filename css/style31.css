@@ -455,6 +455,7 @@ h2{
     float: left;
     margin-left: 12px;
     right: 40px;
+    border-radius: 10px;
 }
 
 .dies p{
@@ -462,8 +463,159 @@ h2{
     font-size: 0.7rem;
     position: relative;
     top: 2px;
-    left: 6px;
+    left: 5px;
 }
+
+.hora{
+    width: 250px;
+    height: 22px;
+    background-color: #225587;
+    position: relative;
+    top: 11px;
+    left: 25px;
+    border-radius: 5px;
+}
+.hora p{
+    color: white;
+    position: relative;
+    font-size: 0.8rem;
+    top: 3px;
+    left: 5px;
+}
+
+.switch{
+    width: 40px;
+    height: 19px;
+    background-color: #225587;
+    position: relative;
+    bottom: 9.5px;
+    left: 285px;
+    border-radius: 25px;
+}
+
+#esfera{
+    width: 13px;
+    height: 13px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    left: 3px;
+
+}
+
+.txtap3{
+    color: white;
+    font-size: 0.8rem;
+    position: relative;
+    top: 7px;
+    left: 145px;
+}
+
+.img1{
+    width: 14px;
+    height: 14px;
+    position: relative;
+    bottom: 9px;
+    left: 116px;
+}
+
+.img2{
+    width: 14px;
+    height: 14px;
+    position: relative;
+    bottom: 9px;
+    left: 200px;
+    rotate: 180deg;
+}
+
+#contenidor{
+    width: 260px;
+    height: 85px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #225587;
+    bottom: 4px;
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+.bolita{
+    width: 24px;
+    height: 24px;
+    background-color: #03ad2e;
+    position: relative;
+    border-radius: 50%;
+    float: left;
+    margin-left: 12px;
+    left: px;
+    margin-top: 13px;
+}
+
+.bolitasel{
+    width: 24px;
+    height: 24px;
+    background-color: #2866a3;
+    position: relative;
+    border-radius: 50%;
+    float: left;
+    margin-left: 12px;
+    left: px;
+    margin-top: 13px;
+}
+
+.bolitafinde{
+    width: 24px;
+    height: 24px;
+    background-color: #9f9f9f;
+    position: relative;
+    border-radius: 50%;
+    float: left;
+    margin-left: 12px;
+    left: px;
+    margin-top: 13px;
+}
+
+.bolitat{
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    position: relative;
+    border-radius: 50%;
+    float: left;
+    margin-left: 12px;
+    left: px;
+    margin-top: 13px;
+}
+
+.bolitan{
+    width: 24px;
+    height: 24px;
+    background-color: red;
+    position: relative;
+    border-radius: 50%;
+    float: left;
+    margin-left: 12px;
+    left: px;
+    margin-top: 13px;
+}
+
+.txtbolita{
+    color: white;
+    position: relative;
+    font-size: 0.9rem;
+    top: 4px;
+    left: 8px;
+}
+
+.txtbolitaesp{
+    color: white;
+    position: relative;
+    font-size: 0.9rem;
+    top: 4px;
+    left: 3.5px;
+}
+
 /*_______________________pestanyes_____________________*/
 
 

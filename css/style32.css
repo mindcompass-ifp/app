@@ -109,6 +109,10 @@ h5{
     position: relative;
     background-color: ;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 /*_______________________contenidor_______________*/
 

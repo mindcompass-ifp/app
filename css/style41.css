@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    font-family: helvetica;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+body{
+    background-color: white;
+}
+
+#header{
+    position: fixed;
+    height: 20px;
+    width: 100%;
+    background-color: white;
+}
+
+#vlv img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+#barra{
+    background-color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 12px;
+    position: relative;
+    left: 121px;
+    bottom: 10px;
+}
+
+#imgsuperior{
+    width: 375px;
+    height: 100px;
+    border-radius: 15px;
+    position: relative;
+    margin: 0 auto;
+    background-color: ;
+    overflow: hidden;
+}
+#imgsuperior img{
+    width: 379px;
+    height: 230px;
+    bottom: 61.5px;
+    position: relative;
+}
+
+#desplegable{
+    width: 375px;
+    height: 498px;
+    background-color: white;
+    position: relative;
+    margin-top: 5px;
+    border-radius: 15px 15px 0 0;
+}
+
+#titol{
+    width: 300px;
+    height:60px;
+    background-color: ;
+    position: relative;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+/*_______________________pestanyes_____________________*/
+
+
+/*_______________________contenidor_______________*/
+
+#contenidor1{
+    width: 390px;
+    height: 578px;
+    position: relative;
+    margin: 0 auto;
+    background-color: ;
+    top: 16px;
+    border-radius:15px 2% 0 0;
+    z-index: 300;
+    overflow: scroll;
+}
+
+#imatge{
+    width: 375px;
+    height: 190px;
+    position: relative;
+    background-color: ;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    bottom: 45px;
+}
+
+#imatge img{
+    width: 375px;
+    height: 190px;
+    
+}
+
+
+
+.titol{
+    color: #007FB7;
+    position: relative;
+    margin-left: 60px;
+    top: 20px;
+}
+
+.subtitol{
+    font-size: 0.8rem;
+    position: relative;
+    margin-left: 20px;
+    padding-top: 10px
+}
+
+.subtitol2{
+    font-size: 0.65rem;
+    position: relative;
+    margin-left: 303px;
+    bottom: 13px;
+    opacity: 50%;
+}
+
+
+
+
+.txtsubtitol{
+    background-color: ;
+    width: 355px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    bottom: 28px;
+  
+}
+
+.lupitaa{
+    position: relative;
+    width: 28px;
+    height: 28px;
+    bottom: 7px;
+    left: 330px;
+}
+
+.fileton{
+    width: 355px;
+    height: 1px;
+    background-color: #007FB7;
+    position: relative;
+    margin:  0 auto;
+    bottom: 10px;
+}
+
+.subt{
+    font-size: 0.75rem;
+    position: relative;
+    margin-left: 10px;
+}
+
+.subt2{
+    font-size: 0.75rem;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+
+.taula{
+    width: 330px;
+    height: 70px;
+    background-color: ;
+    position: relative;
+    margin: 0 auto;
+    top: 9px;
+}
+
+.bolita{
+    width: 30px;
+    height: 30px;
+    background-color: #007FB7;
+    position: relative;
+    border-radius: 50%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    bottom: 10px;
+}
+
+.fileton2{
+    width: 355px;
+    height: 1px;
+    background-color: #007FB7;
+    position: relative;
+    margin:  0 auto;
+    top: 23px;
+}
+
+.total{
+    width: 170px;
+    height: 110px;
+    background-color: ;
+    position: relative;
+    float: left;
+    top: 7px;
+    margin-left: 11.5px;
+}
+
+.totaltxt1{
+    font-size: 0.75rem;
+    position: relative;
+    color: #007FB7;
+
+}
+
+.img{
+     width: 170px;
+     height: 80px;
+     position: relative;
+     background-color: ;
+     overflow: hidden;
+}
+
+.img img{
+    width: 170px;
+     height: 80px;
+     position: relative;
+     border-radius: 10px;
+}
+
+.txtimg{
+    font-size: 0.75rem;
+    color: #007FB7;
+    font-weight: 600;
+    position: relative;
+    top: 3px;
+}
+
+.txtimg2{
+    background-color: white;
+    width: 170px;
+    height: 20px;
+    position: relative;
+}
+
+#boton{
+    width: 200px;
+    height: 27px;
+    background-color: #007FB7;
+    position: relative;
+    margin: 0 auto;
+    top: 118px;
+    border-radius: 20px;
+
+}
+
+.txtbola{
+    color: white;
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+
+.txtbolaesp{
+    color: white;
+    position: relative;
+    top: 7px;
+    left: 5px;
+}
+
+.esp{
+    background-color: #225587;
+}
+
+.tt{
+    position: relative;
+    bottom: 104px;
+    color: white;
+    left: 40px;
+    font-size: 0.9rem;
+}
+
+.fila1{
+    width: 390px;
+    height: 189px;
+    background-color: rgb(237, 237, 237);
+    position: relative;
+    top: 20px;
+    overflow-y: scroll;
+}
+
+.fila11{
+    width: 575px;
+    height: 189px;
+    background-color: transparent;
+}
+
+.fila22{
+    width: 575px;
+    height: 189px;
+    background-color: transparent;
+}
+
+.fila33{
+    width: 575px;
+    height: 189px;
+    background-color: transparent;
+}
+
+.fila2{
+    width: 390px;
+    height: 189px;
+    background-color: white;
+    top: 160px;
+    position: relative;
+    top: 20px;
+    overflow-y: scroll;
+}
+
+.fila3{
+    width: 390px;
+    height: 189px;
+    background-color: rgb(237, 237, 237);
+    top: 140px;
+    position: relative;
+    top: 20px;
+    overflow-y: scroll;
+}
+
+.fila4{
+    width: 390px;
+    height: 189px;
+    background-color: white;
+    top: 140px;
+    position: relative;
+    top: 20px;
+    overflow: scroll;
+}
+
+.imatge{
+    background-color: ;
+    width: 170px;
+    height: 85px;
+    overflow: hidden;
+    border-radius: 10px;
+ 
+    
+}
+
+.imatge img{
+    width: 170px;
+    height: 85px;
+    border-radius: 10px;
+}
+
+.total{
+    width: 170px;
+    height: 143px;
+    background-color: ;
+    margin-left: 17px;
+    float: left;
+}
+
+.txt1{
+    color: #007FB7;
+    font-size: 0.7rem;
+    line-height: 18px;
+}
+
+.txt2{
+    font-size: 0.7rem;
+}
+/*_______________________contenidor_______________*/
+
+
+
+
+
+
+/*_______________________contenidor_______________*/
+/*_______________________footer_____________________*/
+
+#footer{
+    height: 60px;
+    width: 100%;
+    background-color: #007FB7;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#footer2{
+    width: 390px;
+    height: 100%;
+    background-color:#007FB7;
+    position: relative;
+    margin: 0 auto;
+    z-index: 9000;
+}
+
+.icon{
+    width: 52px;
+    height: 52px;
+    background-color: ;
+    float: left;
+    margin-left: 22px;
+    margin-top: 4px;
+}
+
+
+
+.check img{
+    width: 40px;
+    height: 34px;
+    position: relative;
+    top: 9px;
+    left: -2px;
+    opacity: 80%;
+}
+
+.lupa img{
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 13px;
+    left: 13px;
+    
+}
+
+.lupa{
+    background-color: #225587;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    margin-left: 17px;
+    margin-right: -7px;
+    top: -20px;
+    position: relative;
+    border: solid 4px white;
+    position: relative;
+    z-index: 4;
+}
+
+.home img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 6px;
+    left: 6px;
+    opacity: 80%;
+}
+
+.zen img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    opacity: 80%;
+}
+
+.config img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    opacity: 80%;
+}
+
+a{
+    text-decoration: none;
+}
+/*_______________________footer_____________________*/

@@ -104,6 +104,10 @@ h5{
     top: 4px;
 }
 
+a{
+    text-decoration: none;
+}
+
 #subtitol2{
     width: 174px;
     height: 25px;
@@ -122,6 +126,8 @@ h5{
     top: 2px;
     overflow: hidden;
 }
+
+
 
 .cont img{
     width: 355px;

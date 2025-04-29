@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    font-family: helvetica;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+body{
+    background-color: white;
+    
+}
+
+
+
+h2{
+    position: relative;
+    bottom: 20px;
+    left: 130px;
+    color: #007FB7;
+}
+
+#vlv img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    background-color: #007FB7;
+}
+
+#desplegable{
+    width: 375px;
+    height: 679px;
+    background-color: red;
+    position: relative;
+    
+    border-radius: 15px 15px 0 0;
+}
+
+/*_______________________pestanyes_____________________*/
+
+
+/*_______________________contenidor_______________*/
+
+#contenidor1{
+    width: 375px;
+    height: 669px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #007FB7;
+    
+    border-radius:15px 2% 0 0;
+    z-index: 300;
+}
+
+
+/*_______________________contenidor_______________*/
+
+#contenidor2{
+    width: 375px;
+    height: 669px;
+    background-color: #225587;
+    position: relative;
+    top: 0px;
+   
+    overflow: hidden;
+}
+
+.equis{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 18px;
+    left: 18px;
+}
+
+.imatge{
+    width: 320px;
+    height: 260px;
+    background-color: #007FB7;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 15px;
+    top: 40px;
+}
+
+.musica{
+    width: 320px;
+    height: 100px;
+    background-color: #007FB7;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 15px;
+    top: 55px;
+}
+
+.des{
+    width: 320px;
+    height: 150px;
+    background-color: #007FB7;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 15px;
+    top: 70px;
+}
+
+/*_______________________contenidor_______________*/
+/*_______________________footer_____________________*/
+
+#footer{
+    height: 60px;
+    width: 100%;
+    background-color: #007FB7;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#footer2{
+    width: 390px;
+    height: 100%;
+    background-color:#007FB7;
+    position: relative;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.icon{
+    width: 52px;
+    height: 52px;
+    background-color: ;
+    float: left;
+    margin-left: 22px;
+    margin-top: 4px;
+}
+
+
+
+.check img{
+    width: 40px;
+    height: 34px;
+    position: relative;
+    top: 9px;
+    left: 4px;
+   
+}
+
+.lupa img{
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+    opacity: 80%;
+}
+
+.home{
+    background-color: #225587;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    margin-left: 17px;
+    margin-right: -7px;
+    top: -20px;
+    position: relative;
+    border: solid 4px white;
+    position: relative;
+    z-index: 4;
+}
+
+.home img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 10px;
+    left: 12px;
+    
+}
+
+.zen img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    opacity: 80%;
+}
+
+.config img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    opacity: 80%;
+}
+
+a{
+    text-decoration: none;
+}
+/*_______________________footer_____________________*/

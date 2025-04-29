@@ -254,7 +254,7 @@ body{
     position: relative;
     top: 10px;
     border-radius: 0 0 17px 17px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 #contenidor2 img{
@@ -269,7 +269,7 @@ body{
     position: relative;
     font-size: 1.5rem;
     top: -27px;
-    left: 120px;
+    left: 125px;
 }
 
 .apartado{

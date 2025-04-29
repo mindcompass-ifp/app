@@ -16,7 +16,7 @@ body {
 #contenidor {
     height: 669px;
     width: 390px;
-    background-color: red;
+    background-color: #007FB7;
     margin: 0 auto;
     z-index: 1;
     position: relative;
@@ -25,7 +25,7 @@ body {
 #contenidor img {
     height: 669px;
     width: 340px;
-    background-color: black;
+    background-color: #007FB7;
     position: relative;
     left: 25px;
    

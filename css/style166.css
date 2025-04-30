@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    font-family: helvetica;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+body{
+    background-color: #007FB7;
+}
+
+#header{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: #007FB7;
+}
+
+#vlv img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+#barra{
+    background-color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 12px;
+    position: relative;
+    left: 121px;
+    bottom: 10px;
+}
+
+#imgsuperior{
+    width: 375px;
+    height: 100px;
+    border-radius: 15px;
+    position: relative;
+    margin: 0 auto;
+    background-color: ;
+    overflow: hidden;
+}
+#imgsuperior img{
+    width: 379px;
+    height: 230px;
+    bottom: 61.5px;
+    position: relative;
+}
+
+#desplegable{
+    width: 375px;
+    height: 498px;
+    background-color: white;
+    position: relative;
+    margin-top: 5px;
+    border-radius: 15px 15px 0 0;
+}
+
+#titol{
+    width: 300px;
+    height:60px;
+    background-color: ;
+    position: relative;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    text-align: center;
+    top: 30px;
+}
+
+.boton{
+    width: 330px;
+    height: 65px;
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    margin: 0 auto;
+    margin-top: 12px;
+    top: 30px;
+    border-radius: 25px;
+}
+
+.boton:hover{
+    background-color: #66bfe6;
+    color: white;
+}
+
+.boton img{
+    width: 35px;
+    height: 33px;
+    position: relative;
+    top: 17px;
+    left: 15px;
+}
+
+.txt{
+    width: 200px;
+    height: 30px;
+    background-color: ;
+    position: relative;
+    bottom: 23px;
+    left: 80px;
+}
+
+.pboton{
+    font-size: 1rem;
+    position: relative;
+    top: 3px;
+    font-weight: 500;
+}
+
+.pbotonesp{
+    position: relative;
+    top: 10px;
+    
+}
+
+.btnseguent{
+    position: relative;
+    background-color: rgb(225, 215, 18);
+    width: 200px;
+    height: 45px;
+    margin: 0 auto;
+    top: 58px;
+    border-radius: 25px;
+    color: white;
+}
+
+.btnseguent p{
+    position: relative;
+    top: 12px;
+    left: 68px;
+}
+
+
+/*_______________________pestanyes_____________________*/
+
+
+/*_______________________contenidor_______________*/
+
+#contenidor1{
+    width: 375px;
+    height: 603px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #007FB7;
+    top: 66px;
+    border-radius:15px 2% 0 0;
+    z-index: 300;
+}
+
+
+/*_______________________contenidor_______________*/
+
+#contenidor2{
+    width: 375px;
+    height: 603px;
+    background-color: #007FB7;
+    position: relative;
+    top: 0px;
+   
+    overflow: scroll;
+}
+
+
+
+
+/*_______________________contenidor_______________*/
+/*_______________________footer_____________________*/
+
+#footer{
+    height: 60px;
+    width: 100%;
+    background-color: #007FB7;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#footer2{
+    width: 390px;
+    height: 100%;
+    background-color:#007FB7;
+    position: relative;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.icon{
+    width: 52px;
+    height: 52px;
+    background-color: ;
+    float: left;
+    margin-left: 22px;
+    margin-top: 4px;
+}
+
+
+
+.check img{
+    width: 40px;
+    height: 34px;
+    position: relative;
+    top: 9px;
+    left: 4px;
+    opacity: 80%;
+}
+
+.lupa img{
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+    opacity: 80%;
+}
+
+.home{
+    background-color: #225587;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    margin-left: 17px;
+    margin-right: -7px;
+    top: -20px;
+    position: relative;
+    border: solid 4px white;
+    position: relative;
+    z-index: 4;
+}
+
+.home img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 10px;
+    left: 12px;
+    
+}
+
+.zen img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    opacity: 80%;
+}
+
+.config img{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    opacity: 80%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/*_______________________footer_____________________*/
+/*_________________-------______check__________-------___________*/
+
+.success-animation { margin:0px auto;
+    position: relative;
+z-index: 60;}
+
+.checkmark {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 4;
+    stroke: #4bb71b;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0px 0px 0px #4bb71b;
+    animation: fill .4s ease-in-out .4s forwards, scale .4s ease-in-out .9s both;
+    position:relative;
+    bottom: 58px;
+    left: 128px;
+   margin: 0 auto;
+}
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+    stroke: #4bb71b;
+    fill: #fff;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+ 
+}
+
+.checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes scale {
+    0%, 100% {
+        transform: none;
+    }
+
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #4bb71b;
+    }
+}
+/*_________________-------______check__________-------___________*/
+
+.especial{
+    width: 340px;
+    height: 560px;
+    position: relative;
+    z-index: 23000;
+    background-color: #49a6ce;
+    margin: 0 auto;
+    bottom: 450px;
+    border-radius: 15px;
+    border: solid white 2px;
+}
+
+.especial h2{
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    position: relative;
+    top: 190px;
+}
+
+.boto1{
+    width: 170px;
+    height: 40px;
+    background-color: #5bd427;
+    position: relative;
+    margin: 0 auto;
+    top: 210px;
+    border-radius: 15px;
+}
+
+.boto2{
+    width: 170px;
+    height: 40px;
+    background-color: #EB5C4E;
+    position: relative;
+    margin: 0 auto;
+    top: 225px;
+    border-radius: 15px;
+}
+
+.boto1 h4{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 13px;
+    font-size: 0.9rem;
+}
+
+.boto2 h4{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 13px;
+    font-size: 0.9rem;
+}
+
+.boto1:hover{
+    background-color: #4bb71b;
+}
+
+.boto2:hover{
+    background-color: #e65043;
+}

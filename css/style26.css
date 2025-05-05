@@ -98,6 +98,8 @@ body{
 }
 
 
+
+
 #titol{
     width: 330px;
     height:60px;
@@ -112,8 +114,17 @@ body{
 h3{
     position: relative;
     top: 16px;
-    left: 55px;
+
     color: #007FB7;
+    background-color: ;
+    height: 40px;
+    text-align: center;
+    top: 0px;
+    padding-top: 15px;
+}
+
+h3:hover{
+    color: white;
 }
 
 

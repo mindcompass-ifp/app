@@ -46,7 +46,7 @@ h2{
 /*_______________________contenidor_______________*/
 
 #contenidor1{
-    width: 375px;
+    width: 390px;
     height: 669px;
     position: relative;
     margin: 0 auto;
@@ -60,7 +60,7 @@ h2{
 /*_______________________contenidor_______________*/
 
 #contenidor2{
-    width: 375px;
+    width: 390px;
     height: 669px;
     background-color: #225587;
     position: relative;
@@ -85,6 +85,12 @@ h2{
     margin: 0 auto;
     border-radius: 15px;
     top: 40px;
+    overflow: hidden;
+}
+
+.carita{
+    width: 320px;
+    height: 260px;
 }
 
 .musica{
@@ -99,7 +105,7 @@ h2{
 
 .des{
     width: 320px;
-    height: 150px;
+    height: 170px;
     background-color: #007FB7;
     position: relative;
     margin: 0 auto;
@@ -107,6 +113,100 @@ h2{
     top: 70px;
 }
 
+.aceptacio{
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+.esq{
+    width: 20px;
+    height: 17px;
+    background-color: ;
+    position: relative;
+    top: 19px;
+    left: 20px;
+}
+
+.mig{
+    width: 213px;
+    height: 6px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    top: 7px;
+    left: 50px;
+}
+
+.dret{
+    width: 20px;
+    height: 17px;
+    background-color: ;
+    position: relative;
+    left: 275px;
+    bottom: 4px;
+}
+
+.time{
+    font-size: 0.7rem;
+    color: white;
+    position: relative;
+    top: 1px;
+}
+
+.punt{
+    width: 12px;
+    height: 12px;
+    background-color: #225587;
+    border-radius: 50%;
+    position: relative;
+    bottom: 19px;
+    left: 50px;
+}
+
+.play{
+    width: 36px;
+    height: 33px;
+    background-color: ;
+    position: relative;
+    margin: 0 auto;
+    bottom: 13px;
+}
+
+.playimg{
+    width: 27px;
+    height: 30px;
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+
+.descripcio{
+    color: white;
+    font-size: 0.85rem;
+    top: 12px;
+    position: relative;
+    left: 10px;
+}
+
+#txt{
+    width: 300px;
+    height: 130px;
+    background-color: ;
+    position: relative;
+    margin: 0 auto;
+    top: 11px;
+}
+
+.txxt{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 300;
+    position: relative;
+    top: 7px;
+}
 /*_______________________contenidor_______________*/
 /*_______________________footer_____________________*/
 

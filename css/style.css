@@ -11,8 +11,8 @@ body {
 
 #logo{
     width: 200px;
-    height: 100%;
-    background-color: transparent;
+    height: 80%;
+    background-color: ;
     margin: 0 auto;
  
 }
@@ -22,7 +22,7 @@ body {
     height: 107px;
     cursor: pointer;
     position: relative;
-    top: 50px;
+    top: -110px;
     margin-top: 200%;
    
 }

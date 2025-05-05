@@ -43,7 +43,7 @@ body{
     border-radius: 15px;
     position: relative;
     margin: 0 auto;
-    background-color: grey;
+    background-color: ;
     overflow: hidden;
 }
 #imgsuperior img{
@@ -56,44 +56,36 @@ body{
 #desplegable{
     width: 375px;
     height: 598px;
-    background-color: white;
+    background-color: yellow;
     position: relative;
     margin-top: 5px;
     border-radius: 15px 15px 0 0;
 }
 
-#txtcentre{
+#imgcentre{
     width: 350px;
-    height: 200px;
+    height: 380px;
     background-color: ;
     position: relative;
     margin: 0 auto;
-    top: 30px;
+    top: 50px;
 }
 
-#firma{
-    width: 320px;
-    height: 150px;
-    background-color:rgb(223, 223, 223) ;
+#imgcentre img{
+    width: 300px;
+    height: 390px;
     position: relative;
-    margin: 0 auto;
-    opacity: 80%;
-    top: 60px;
-    border-radius: 25px;
+    top: 0px;
+    left: 25px;
 }
 
-.txtfirma{
-    position: relative;
-    font-size: 0.8rem;
-    top: 10px;
-}
 .boto1{
     width: 200px;
     height: 55px;
     background-color: ;
     border: #007FB7 solid 2px;
     position: relative;
-    top: 90px;
+    top: 80px;
     border-radius: 40px;
     left: 90px;
     color: white;
@@ -135,11 +127,7 @@ h3:hover{
     color: white;
 }
 
-p{
-    margin-top: 10px;
-    position: relative;
-    left: 20px;
-}
+
 
 .llarg{
     left: 26px;
@@ -171,7 +159,7 @@ p{
     position: relative;
     top: 0px;
    
-    overflow: hidden;
+    overflow: scroll;
 }
 
 
@@ -273,15 +261,96 @@ a{
     text-decoration: none;
 }
 /*_______________________footer_____________________*/
-/*_______________________________pizarra_________________________*/
-canvas {
-    width: 309px;
-    height: 120px;
-    background-color: rgb(223, 223, 223);
+
+.bolita{
     position: relative;
+    width:150px;
+    height:150px;
+    background:;
+    border-radius:50%;
+    background-image: conic-gradient(rgb(250, 36, 36) 100deg, rgb(249, 115, 115) 100deg);
+    position:relative;
+    z-index:200;
+    animation: giro 1s linear;
+  }
+  
+  .bolita::before{
+    position: absolute;
     top: 10px;
-    left: 5px;
-    border-radius: 15px;
+    left: 10px;
+    content:"";
+    display: block;
+    width:130px;
+    height:130px;
+    border-radius: 50%;
+    background:white;
+    position:relative;
+    z-index:1;
+  }
+  
+  @keyframes giro{
+    0% {
+      transform: rotate(0deg);}
+    100% {
+      transform: rotate(360deg);}+
+    *
+  }
+
+.total{
+    background-color: black;
+    width: 150px;
+    height: 190px;
+    position: relative;
 }
 
-/*_______________________________pizarra_________________________*
+.uno{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.dentro{
+    width: 100px;
+    height: 70px;
+    background-color: green;
+    position: relative;
+    bottom: 110px;
+    z-index: 10000;
+    left: 25px;
+}
+
+.abajo{
+    width: 150px;
+    height: 35px;
+    position: relative;
+    z-index: 20000;
+    background-color: rgb(250, 36, 36);
+    border-radius: 15px;
+    bottom: 85px;
+}
+
+.txtabajo{
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    position: relative;
+    top: 9px;
+}
+
+.dos{
+    position: relative;
+    bottom: 160px;
+    left: 200px;
+}
+
+.tres{
+    position: relative;
+    bottom: 150px;
+    left: 29px;
+}
+
+.cuatro{
+    position: relative;
+    bottom: 340px;
+    left: 200px;
+}

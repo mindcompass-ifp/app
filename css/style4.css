@@ -121,6 +121,8 @@ a{
 
 .n1{
     background-color: #007FB7;
+    position: relative;
+    z-index: 300000;
 }
 
 .pestanan1{
@@ -141,6 +143,8 @@ a{
 
 .n2{
     background-color: #225587;
+    position: relative;
+    z-index: 300000;
 }
 
 .n2 img{
@@ -153,6 +157,8 @@ a{
 
 .n3{
     background-color: #225587;
+    position: relative;
+    z-index: 300000;
 }
 
 .pestanan3{
@@ -529,3 +535,12 @@ a{
 }
 
 /*_______________________footer_____________________*/
+
+.retoc{
+    width: 100%;
+    background-color: white;
+    height: 40px;
+    position: relative;
+    bottom: 420px;
+   
+}

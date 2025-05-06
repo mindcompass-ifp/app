@@ -210,6 +210,8 @@ body{
 
 .n1{
     background-color: #007FB7;
+    z-index: 300000;
+    position: relative;
 }
 
 .pestanan1{
@@ -218,6 +220,7 @@ body{
     position: relative;
     top: 13px;
     padding-left: 50px;
+    z-index: 300000;
 }
 
 .n1 img{
@@ -230,6 +233,8 @@ body{
 
 .n2{
     background-color: #225587;
+    z-index: 300000;
+    position: relative;
 }
 
 .n2 img{
@@ -238,10 +243,13 @@ body{
     position: relative;
     top: 11px;
     left: 43px;
+    z-index: 300000;
 }
 
 .n3{
     background-color: #225587;
+    position: relative;
+    z-index: 300000;;
 }
 
 .pestanan3{
@@ -479,6 +487,15 @@ body{
     height: 30px;
     top: 5px;
     left: 5px;
+}
+
+.retoc{
+    width: 100%;
+    background-color: white;
+    height: 40px;
+    position: relative;
+    bottom: 420px;
+   
 }
 
 /*_______________________contenidor_______________*/

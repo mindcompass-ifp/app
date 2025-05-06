@@ -10,6 +10,7 @@
 
 body{
     background-color: #007FB7;
+    overflow: hidden;
 }
 
 #header{
@@ -702,3 +703,122 @@ a{
     text-decoration: none;
 }
 /*_______________________footer_____________________*/
+
+#borroso{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 2000000;
+    bottom: 0px;
+    opacity: 60%;
+    overflow: none;
+}
+
+#contenedor5{
+    width: 320px;
+    height: 550px;
+    background-color: #225587;
+    position: relative;
+    margin: 0 auto;
+    z-index: 2000000;
+    bottom: 430px;
+    overflow: scroll;
+    border-radius: 15px;
+}
+
+#padalt{
+    width: 100%;
+    height: 25px;
+    background-color: #007FB7;
+}
+
+#padalt p{
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    top: 6px;
+    position: relative;
+}
+
+#cnt1{
+    width: 290px;
+    height: 110px;
+    background-color: #19426a;
+    position: relative;
+    margin: 0 auto;
+    border: solid green 2px;
+    border-radius: 15px;
+    margin-top: 17px;
+}
+
+#cnt2{
+    width: 290px;
+    height: 110px;
+    background-color: #19426a;
+    position: relative;
+    margin: 0 auto;
+    border: solid orange 2px;
+    border-radius: 15px;
+    margin-top: 13px;
+}
+
+#cnt3{
+    width: 290px;
+    height: 110px;
+    background-color: #19426a;
+    position: relative;
+    margin: 0 auto;
+    border: solid maroon 2px;
+    border-radius: 15px;
+    margin-top: 13px;
+}
+
+#cnt4{
+    width: 290px;
+    height: 110px;
+    background-color: #19426a;
+    position: relative;
+    margin: 0 auto;
+    border: solid red 2px;
+    border-radius: 15px;
+    margin-top: 13px;
+}
+
+#cnt5{
+    width: 290px;
+    height: 110px;
+    background-color: #19426a;
+    position: relative;
+    margin: 0 auto;
+    border: solid pink 2px;
+    border-radius: 15px;
+    margin-top: 13px;
+}
+
+.ttt{
+    width: 270px;
+    height: 20px;
+    background-color: #225587;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 7px;
+    top: 5px;
+}
+
+.ttt p{
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    top: 2px;
+    position: relative;
+}
+
+.ppp{
+    width: 200px;
+    height: 70px;
+    background-color: red;
+    position: relative;
+    margin: 0 auto;
+    top: 13px;
+}

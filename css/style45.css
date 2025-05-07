@@ -598,7 +598,7 @@ body{
 }
 
 .marron{
-    background-color:  maroon;
+    background-color:  #CD9965;
 }
 .vermell{
     background-color: red;
@@ -743,55 +743,66 @@ a{
 
 #cnt1{
     width: 290px;
-    height: 110px;
+    height: 120px;
     background-color: #19426a;
     position: relative;
     margin: 0 auto;
-    border: solid green 2px;
+    border: solid #00B737 2px;
     border-radius: 15px;
     margin-top: 17px;
 }
 
 #cnt2{
     width: 290px;
-    height: 110px;
+    height: 120px;
     background-color: #19426a;
     position: relative;
     margin: 0 auto;
-    border: solid orange 2px;
+    border: solid #FF8C00 2px;
     border-radius: 15px;
     margin-top: 13px;
 }
 
 #cnt3{
     width: 290px;
-    height: 110px;
+    height: 120px;
     background-color: #19426a;
     position: relative;
     margin: 0 auto;
-    border: solid maroon 2px;
+    border: solid #CD9965 2px;
     border-radius: 15px;
     margin-top: 13px;
 }
 
 #cnt4{
     width: 290px;
-    height: 110px;
+    height: 85px;
     background-color: #19426a;
     position: relative;
     margin: 0 auto;
-    border: solid red 2px;
+    border: solid #00FFFF 2px;
     border-radius: 15px;
     margin-top: 13px;
 }
 
 #cnt5{
     width: 290px;
-    height: 110px;
+    height: 85px;
     background-color: #19426a;
     position: relative;
     margin: 0 auto;
-    border: solid pink 2px;
+    border: solid #FFFF00 2px;
+    border-radius: 15px;
+    margin-top: 13px;
+}
+
+#cnt6{
+    width: 290px;
+    height: 85px;
+    background-color: #19426a;
+    position: relative;
+    margin: 0 auto;
+    border: solid #E5E5E5 2px;
     border-radius: 15px;
     margin-top: 13px;
 }
@@ -816,9 +827,108 @@ a{
 
 .ppp{
     width: 200px;
-    height: 70px;
-    background-color: red;
+    height: 72px;
+    background-color: ;
     position: relative;
     margin: 0 auto;
-    top: 13px;
+    top: 17px;
+}
+
+.ccc{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1.5px solid #00B737;
+    position: relative;
+    z-index: 30000;
+    float: left;
+    margin-left: 12px;
+    margin-top: 5px;
+    bottom: 7px;
+}
+
+.ccc2{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1.5px solid #FF8C00;
+    position: relative;
+    z-index: 30000;
+    float: left;
+    margin-left: 12px;
+    margin-top: 5px;
+    bottom: 7px;
+}
+
+.ccc3{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1.5px solid #CD9965;
+    position: relative;
+    z-index: 30000;
+    float: left;
+    margin-left: 12px;
+    margin-top: 5px;
+    bottom: 7px;
+}
+
+.ccc4{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1.5px solid maroon;
+    position: relative;
+    z-index: 30000;
+    float: left;
+    margin-left: 12px;
+    margin-top: 5px;
+    bottom: 7px;
+}
+
+.ccc4{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1.5px solid #00FFFF;
+    position: relative;
+    z-index: 30000;
+    float: left;
+    margin-left: 12px;
+    margin-top: 5px;
+    bottom: 7px;
+}
+
+.ccc5{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1.5px solid #FFFF00;
+    position: relative;
+    z-index: 30000;
+    float: left;
+    margin-left: 12px;
+    margin-top: 5px;
+    bottom: 7px;
+}
+
+.ccc6{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1.5px solid #E5E5E5;
+    position: relative;
+    z-index: 30000;
+    float: left;
+    margin-left: 12px;
+    margin-top: 5px;
+    bottom: 7px;
+}
+
+.fff{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 6px;
+    left: 6px;
 }

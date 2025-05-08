@@ -9,7 +9,7 @@
 
 
 body{
-    background-color: #225587;
+    background-color: white;
     overflow: hidden;
 }
 
@@ -34,11 +34,12 @@ h2{
 #desplegable{
     width: 375px;
     height: 679px;
-    background-color: red;
+    background-color: ;
     position: relative;
     
     border-radius: 15px 15px 0 0;
 }
+
 
 /*_______________________pestanyes_____________________*/
 
@@ -50,7 +51,7 @@ h2{
     height: 669px;
     position: relative;
     margin: 0 auto;
-    background-color: #007FB7;
+    background-color: white;
     
     border-radius:15px 2% 0 0;
     z-index: 300;
@@ -62,150 +63,167 @@ h2{
 #contenidor2{
     width: 390px;
     height: 669px;
-    background-color: #225587;
+    background-color: ;
     position: relative;
     top: 0px;
    
     overflow: hidden;
 }
 
-.equis{
-    width: 24px;
-    height: 24px;
-    position: relative;
-    top: 18px;
-    left: 18px;
-}
-
-.imatge{
-    width: 320px;
-    height: 260px;
-    background-color: #007FB7;
+#imgarriba{
+    width: 669px;
+    height: 180px;
+    background-color: red;
     position: relative;
     margin: 0 auto;
-    border-radius: 15px;
-    top: 40px;
     overflow: hidden;
 }
 
-.carita{
-    width: 320px;
-    height: 260px;
-}
-
-.musica{
-    width: 320px;
-    height: 100px;
-    background-color: #007FB7;
+.chico{
+    width: 669px;
+    height: 280px;
     position: relative;
-    margin: 0 auto;
-    border-radius: 15px;
-    top: 55px;
+    right: 140px;
+    bottom: 50px;
 }
 
-.des{
-    width: 320px;
-    height: 170px;
-    background-color: #007FB7;
-    position: relative;
-    margin: 0 auto;
-    border-radius: 15px;
-    top: 70px;
-}
-
-.aceptacio{
-    color: white;
-    font-size: 1.2rem;
-    position: relative;
-    text-align: center;
-    top: 10px;
-}
-
-.esq{
-    width: 20px;
-    height: 17px;
-    background-color: ;
-    position: relative;
-    top: 19px;
-    left: 20px;
-}
-
-.mig{
-    width: 213px;
-    height: 6px;
-    background-color: white;
-    border-radius: 15px;
-    position: relative;
-    top: 7px;
-    left: 50px;
-}
-
-.dret{
-    width: 20px;
-    height: 17px;
-    background-color: ;
-    position: relative;
-    left: 275px;
-    bottom: 4px;
-}
-
-.time{
-    font-size: 0.7rem;
-    color: white;
-    position: relative;
-    top: 1px;
-}
-
-.punt{
-    width: 12px;
-    height: 12px;
+#volver{
+    width: 45px;
+    height: 45px;
     background-color: #225587;
     border-radius: 50%;
     position: relative;
-    bottom: 19px;
-    left: 50px;
+    bottom: 155px;
+    left: 19px;
 }
 
-.play{
-    width: 36px;
-    height: 33px;
-    background-color: ;
+.vlv{
+    width: 35px;
+    height: 35px;
     position: relative;
-    margin: 0 auto;
-    bottom: 13px;
+    top: 5px;
+    left: 3px;
 }
 
-.playimg{
-    width: 27px;
-    height: 30px;
+#like{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
     position: relative;
-    top: 2px;
-    left: 5px;
+    left: 333px;
+    bottom: 98px;
+    opacity: 45%;
 }
 
-.descripcio{
-    color: white;
-    font-size: 0.85rem;
-    top: 12px;
-    position: relative;
-    left: 10px;
+#like:hover{
+    background-color: red;
+    opacity: 55%;
 }
 
-#txt{
-    width: 300px;
-    height: 130px;
-    background-color: ;
+h2{
+    left: 20px;
     position: relative;
-    margin: 0 auto;
-    top: 11px;
+    bottom: 100px;
+}
+
+.cor{
+    width: 25px;
+    height: 23px;
+    position: relative;
+    bottom: 131px;
+    left: 342.5px;
+}
+
+.txt1{
+    position: relative;
+    left: 22px;
+    bottom: 90px;
+    font-size: 0.9rem;
+    padding-bottom: 5px;
 }
 
 .txxt{
-    color: white;
-    font-size: 0.8rem;
-    font-weight: 300;
+    width: 345px;
+    height: 70px;
+    background-color: ;
     position: relative;
-    top: 7px;
+    margin: 0 auto;
+    bottom: 89px;
+}
+
+.txt2{
+    font-size: 0.9rem;
+}
+
+.habit{
+    font-weight: 600;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 70px;
+    left: 22px;
+}
+
+#contenedor3{
+    width: 345px;
+    height: 170px;
+    border-radius: 15px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #007FB7;
+    bottom: 57px;
+    overflow: scroll;
+}
+
+.boton{
+    width: 270px;
+    height: 45px;
+    background-color: #225587;
+    border-radius: 40px;
+    position: relative;
+    margin: 0 auto;
+    bottom: 39px;
+    opacity: 80%;
+}
+
+.boton:hover{
+    opacity: 100%;
+}
+
+.boton p{
+    color: white;
+    font-size: 1.1rem;
+    position: relative;
+    top: 12px;
+    text-align: center;
+}
+
+.total{
+    width: 300px;
+    height: 35px;
+    border-radius: 11px;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgb(242, 242, 242);
+    
+    margin-top: 10px;
+}
+
+.cercle{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: rgb(183, 183, 183);
+    position: relative;
+    top: 3.5px;
+    left: 4px;
+}
+
+.ccercle{
+    font-size: 0.8rem;
+    position: relative;
+    left: 40px;
+    bottom: 17px;
 }
 /*_______________________contenidor_______________*/
 /*_______________________footer_____________________*/

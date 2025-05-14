@@ -10,7 +10,7 @@ body {
  height: 669px;
  width: 390px;
  margin: 0 auto;
-
+overflow: hidden;
 }
 
 #contenidor {
@@ -40,9 +40,9 @@ body {
     display: block;
     margin: 0 auto;
     margin-top: 25px;
-    top: -593px;
+    top: -460px;
     position: relative;
-    opacity: 85%;
+    opacity: 75%;
 }
 
 a{
@@ -79,9 +79,9 @@ h4{
     z-index: 2;
     margin: 0 auto;
     margin-top: 25px;
-    top: -593px;
+    top: -450px;
     position: relative;
-    opacity: 85%;
+    opacity: 75%;
 }
 
 #accedir:hover{

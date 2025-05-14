@@ -10,6 +10,7 @@
 
 body{
     background-color: #007FB7;
+    overflow: hidden;
 }
 
 #header{
@@ -304,7 +305,7 @@ body{
     width: 160px;
     height: 30px;
     margin: 0 auto;
-    background-color: red;
+    background-color: #EB5C4E;
     position: relative;
     border-radius: 30px;
     border: solid white 2px;

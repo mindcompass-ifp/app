@@ -10,6 +10,7 @@
 
 body{
     background-color: white;
+    overflow: hidden;
 }
 
 #header{
@@ -281,6 +282,7 @@ body{
     background-color: #007FB7;
     top: 126px;
     border-radius:5%;
+    overflow: hidden;
 }
 
 /*_____________desplegable____________*/

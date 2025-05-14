@@ -10,7 +10,7 @@
 
 body{
     background-color: white;
-    
+    overflow: hidden;
 }
 
 #header{
@@ -567,7 +567,7 @@ h2{
 .bolitafinde{
     width: 24px;
     height: 24px;
-    background-color: rgb(238, 238, 238);
+    background-color: #9f9f9f;
     position: relative;
     border-radius: 50%;
     float: left;

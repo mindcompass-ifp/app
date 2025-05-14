@@ -270,7 +270,7 @@ body{
     position: relative;
     font-size: 1.5rem;
     top: -27px;
-    left: 125px;
+    left:95px;
 }
 
 .apartado{
@@ -293,7 +293,6 @@ body{
     margin-top: 10px;
     position: relative;
     height: 90px;
-    border-radius: 10px;
 }
 
 .ap4{
@@ -388,7 +387,6 @@ body{
     background-color: ;
     position: relative;
     top: 12px;
-
 }
 
 .taula2{
@@ -396,9 +394,8 @@ body{
     height: 100%;
     width: 116.66px;
     float: left;
-   
-}
 
+}
 
 .dia2{
     background-color: white;
@@ -407,7 +404,7 @@ body{
 }
 
 .tau3{
-    background-color: ;
+    background-color: white;
     overflow-y: scroll;
 }
 

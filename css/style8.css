@@ -573,7 +573,7 @@ body{
 .bolita{
     width: 25px;
     height: 25px;
-    background-color: green;
+    background-color: #00B737;;
     border-radius: 50%;
     float: left;
     margin-left: 9px;
@@ -590,22 +590,22 @@ body{
 }
 
 .taronja{
-    background-color: orange;
+    background-color: #FF8C00;;
 }
 
 .blau{
-    background-color: #007FB7;
+    background-color: #00FFFF
 }
 
 .marron{
-    background-color:  maroon;
+    background-color:  #CD9965;
 }
 .vermell{
-    background-color: red;
+    background-color: #FFFF00;
 }
 
 .rosa{
-    background-color: pink;
+    background-color: whitesmoke;
 }
 /*_______________________contenidor_______________*/
 /*_______________________footer_____________________*/

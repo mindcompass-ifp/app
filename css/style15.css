@@ -1,5 +1,7 @@
 *{
     font-family: helvetica;
+    margin:0;
+    padding: 0;
 }
 
 body {
@@ -23,14 +25,16 @@ header{
     width: auto;
     height: 914px;
     background-color: #007FB7;
+    
 }
 
 #pestaña1{
-    width: 420px;
+    width: 390px;
     height: 914px;
     background-color: #007FB7;
     margin: 0 auto;
     z-index: 1;
+    
 }
 
 #programa{
@@ -42,6 +46,7 @@ header{
 
  a{
     text-decoration: none;
+
 }
 
 #mes{
@@ -464,12 +469,12 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 35px;
-
+    overflow: hidden;
 }
 
 .text {
   position: absolute;
-  width: 450px;
+  width: 390px;
   left: 50%;
   margin-left: -185px;
   height: 40px;
@@ -479,12 +484,14 @@ body {
   color: white;
   margin-left: -135px;
   margin-top: 10px;
+
 }
 
 p {
   display: block;
   vertical-align: top;
   margin: 0;
+
 }
 
 .rrr{
@@ -496,6 +503,7 @@ p {
   width: 220px;
   opacity: 0;
   background-color: ;
+  overflow: hidden;
 }
 
 .letter {

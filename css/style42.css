@@ -22,12 +22,12 @@ body{
 
 #contenidor1{
     width: 375px;
-    height: 590px;
+    height: 592px;
     position: relative;
     margin: 0 auto;
     background-color: #007FB7;
     top: 10.5px;
-    border-radius:15px;
+    border-radius:4%;
     overflow: hidden;
 }
 

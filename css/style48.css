@@ -186,6 +186,29 @@ body{
     z-index: 300;
 }
 
+.rectangle{
+    background-color: #225587;
+    width: 330px;
+    height: 80px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 10px;
+    top: 5.5px;
+}
+
+.imatge {
+    position: relative;
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    background-color: red;
+}
+
+
+.imatge img{
+height: 100px;
+}
+
 
 /*_____________desplegable____________*/
 
@@ -292,7 +315,7 @@ body{
 .ap3{
     margin-top: 10px;
     position: relative;
-    height: 90px;
+    height: 110px;
 }
 
 .ap4{
@@ -497,7 +520,7 @@ body{
     position: relative;
     border-radius: 30px;
     border: solid white 2px;
-    top: 25px;
+    top: 5px;
 }
 
 .pcrear{

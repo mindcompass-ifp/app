@@ -196,18 +196,23 @@ body{
     top: 5.5px;
 }
 
-.imatge {
+.imattge {
     position: relative;
     margin: 0 auto;
     width: 70px;
     height: 70px;
     background-color: red;
+    
 }
 
+.imattge img{
+    height: 100px;
+    width: 100px;
+    clear: both;
+    }
+    
 
-.imatge img{
-height: 100px;
-}
+
 
 
 /*_____________desplegable____________*/

@@ -94,6 +94,20 @@ body{
     left: 15px;
 }
 
+.esppecial img{
+    width: 37px;
+    height: 35px;
+    position: relative;
+    top: 17px;
+    left: 15px;
+ 
+}
+
+.esppecial p{
+    position: relative;
+    margin-top: -2px;
+}
+
 .txt{
     width: 200px;
     height: 30px;

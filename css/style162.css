@@ -121,6 +121,26 @@ body{
     
 }
 
+.esppecial img{
+    width: 37px;
+    height: 35px;
+    position: relative;
+    top: 17px;
+    left: 15px;
+ 
+}
+
+.esppecial p{
+    position: relative;
+    margin-top: -2px;
+}
+
+.pbotonespp{
+    position: relative;
+    top: 3px;
+    
+}
+
 
 
 .btnseguent{

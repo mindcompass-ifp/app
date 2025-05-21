@@ -19,12 +19,10 @@ body{
     background-color: #007FB7;
 }
 
-#vlv img{
-    width: 35px;
-    height: 35px;
+
+.esppecial p{
     position: relative;
-    top: 15px;
-    left: 10px;
+    margin-top: -2px;
 }
 
 #barra{

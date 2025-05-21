@@ -206,13 +206,53 @@ body{
 }
 
 .imattge img{
-    height: 100px;
-    width: 100px;
-    clear: both;
+    height: 100%;
+    width: 100%;
+    position: relative;
     }
     
 
+#dr{
+    width: 30%;
+    height: 92px;
+    background-color: ;
+    float: left;
+}
 
+#esq{
+    width: 70%;
+    height: 92px;
+    background-color: ;
+    float: right;
+}
+
+.drr{
+    text-align: center;
+    color: #225587;
+    margin-top: 10px;
+    position: relative;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.ttal{
+    width: 80%;
+    height: 22px;
+    background-color: #225587;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+
+.esqq{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    top: 3.5px;
+    position: relative;
+}
 
 
 /*_____________desplegable____________*/

@@ -35,8 +35,14 @@ body{
     position: relative;
     left: 121px;
     bottom: 10px;
+    overflow: hidden;
 }
 
+#barra2{
+    width: 21.4px;
+    height: 12px;
+    background-color: #225587;
+}
 #imgsuperior{
     width: 375px;
     height: 100px;

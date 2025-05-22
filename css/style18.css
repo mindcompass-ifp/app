@@ -27,6 +27,16 @@ body{
     left: 10px;
 }
 
+#vlv2 img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: -23px;
+    right: 10px;
+    rotate: 180deg;
+    float: right;
+}
+
 #barra{
     background-color: white;
     border-radius: 20px;
@@ -35,6 +45,13 @@ body{
     position: relative;
     left: 121px;
     bottom: 10px;
+    overflow: hidden;
+}
+
+#barra2{
+    width: 64.28px;
+    height: 12px;
+    background-color: #225587;
 }
 
 #imgsuperior{

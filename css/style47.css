@@ -205,14 +205,24 @@ h2{
     margin-top: 10px;
 }
 
+
+
 .cercle{
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    background-color: rgb(183, 183, 183);
+    background-color: rgb(204, 204, 204);
     position: relative;
     top: 3.5px;
     left: 4px;
+}
+
+.cercle img{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 5px;
+    left: 5px;
 }
 
 .ccercle{

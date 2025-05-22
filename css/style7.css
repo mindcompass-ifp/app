@@ -20,6 +20,21 @@ body{
     background-color: #007FB7;
 }
 
+.espe{
+    position: relative;
+    left: -18px;
+}
+
+.retoc{
+    width: 100%;
+    background-color: white;
+    height: 40px;
+    position: relative;
+    bottom: 697px;
+    z-index: 2;
+   
+}
+
 /*_______________________calendari_____________________*/
 
 #calendari{
@@ -116,6 +131,8 @@ body{
     border-radius: 15px 15px 0 0;
     background-color: ;
     float: left;
+    position: relative;
+    z-index: 20000000;
 }
 
 .n1{

@@ -20,10 +20,6 @@ body{
     background-color: #007FB7;
 }
 
-a{
-    text-decoration: none;
-}
-
 /*_______________________calendari_____________________*/
 
 #calendari{
@@ -208,7 +204,7 @@ a{
 .pestana{
     width: 125px;
     height: 40px ;
-     border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 0 0;
     background-color: ;
     float: left;
 }
@@ -300,12 +296,69 @@ a{
     top: 50px;
     left: 2px;
     border-radius: 10px;
+    clear: top;
+}
+
+#desplegable2{
+    width: 140px;
+    height: 25px;
+    background-color: #225587;
+    position: relative;
+    margin: 0 auto;
+    top: 55px;
+    left: 2px;
+    border-radius: 10px;
+   z-index: 2000000000;
+   opacity: 85%;
+}
+
+#desplegable2:hover{
+    opacity: 100%;
+}
+
+#desplegable3:hover{
+    opacity: 100%;
+}
+
+#desplegable3{
+    width: 140px;
+    height: 25px;
+    background-color: #225587;
+    position: relative;
+    margin: 0 auto;
+    top: 60px;
+    left: 2px;
+    border-radius: 10px;
+   z-index: 2000000000;
+   opacity: 85%;
+}
+
+a{
+    text-decoration: none;
 }
 
 .pdesplegable{
     font-size: 0.85rem;
     position: relative;
     top: -34px;
+    left: 7px;
+    font-weight: 600;
+    color: white;
+}
+
+.pdesplegable2{
+    font-size: 0.85rem;
+    position: relative;
+    top: -10px;
+    left: 7px;
+    font-weight: 600;
+    color: white;
+}
+
+.pdesplegable3{
+    font-size: 0.85rem;
+    position: relative;
+    top: 5px;
     left: 7px;
     font-weight: 600;
     color: white;
@@ -326,7 +379,7 @@ a{
     height: 380px;
     background-color: transparent;
     position: relative;
-    top: 48px;
+    top: 13px;
     border-radius: 0 0 17px 17px;
     overflow: scroll;
 }
@@ -500,7 +553,7 @@ a{
     background-color: white;
     height: 40px;
     position: relative;
-    bottom: 420px;
+    bottom: 460px;
    
 }
 

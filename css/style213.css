@@ -35,6 +35,15 @@ body{
     position: relative;
     left: 121px;
     bottom: 10px;
+    overflow: hidden;
+    clear: both;
+}
+
+#barra2{
+    width: 128.57px;
+    height: 12px;
+    background-color: #225587;
+    clear: both;
 }
 
 #imgsuperior{
@@ -153,7 +162,7 @@ body{
     position: relative;
     margin: 0 auto;
     background-color: #007FB7;
-    top: 66px;
+    top: 15px;
     border-radius:15px 2% 0 0;
     z-index: 300;
 }
